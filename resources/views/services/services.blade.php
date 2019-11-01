@@ -24,12 +24,11 @@
         </div>
         <div class=" d-flex justify-content-center row mx-auto serviceContent">
             <div class="col-sm-10 col-md-10 col-lg-9 col-xl-3 serviceContentLeft">
-                <div class="icons row from-left">
+                <div class="icons row bounceInLeft animated infinite delay-2s">
                     <span class='display2 groupIconLeft'><i class="fa fa-pencil " aria-hidden="true"></i></span>
                     <div class="col-sm-10 col-md-10 col-lg-10 col-xl-9"> 
                         <hr>
                         <h4>Web Design</h4>
-                       
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nihil nostrum explicabo
                             corrupti sapiente quod!</p>
                     </div>

@@ -35,4 +35,15 @@
         position: relative;
         left: -60px;
     }
+
+    #services {
+        height: 100vh;
+        background-color: $darkgrey;
+        .idea {
+            color: black
+        }
+    }
+    .content-container{
+        background-color: $black;
+    }
 }
