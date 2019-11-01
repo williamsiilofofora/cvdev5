@@ -1,0 +1,141 @@
+/** Light CSS */
+// menu
+.navbar-brand span {
+    font-family: "Anurati";
+}
+.navbar{
+    width:100%
+}.navbar{
+    position:fixed;
+    z-index: 5;
+}
+// Section Slider
+.slider img {
+ width: 100%;
+ max-height: 100vh;
+}
+//  effet parallax
+.main-container {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.parallax-container {
+    // display: flex;
+    // flex: 1 0 auto;
+    position: relative;
+    left:0;
+    top:0;
+    height: 100vh;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+.content-container {
+    display: block;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+// carroussel indicator
+.carousel {
+    left:0;
+    margin:-5px;
+}
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 5px;
+    margin: 0 ;
+    left: 0;
+    right: 0;
+    width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 .5em;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: transparent;
+}
+
+ol.carousel-indicators li {
+    background: rgba(255, 255, 255, 0.39);
+    // margin-left:.5em;
+    // margin-right: .5em;
+}
+
+ol.carousel-indicators li.active {
+    background: white;
+   
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: blanchedalmond;
+    opacity: 0.9;
+    width:30px;
+    height: 30px;
+    span {
+        background-color:$black;
+    }
+}
+.carousel-caption {
+    top:34%;
+    
+}
+// bouton  darktheme
+#darkTrigger{
+    position:fixed;
+    top:55px;
+    left:0;
+}
+// Section contact
+#contact {
+    background-color: white;
+    min-height: 100vh;
+    padding: 45px 0;
+    color: $black;
+}
+
+.contact {
+    padding: 25px;
+}
+
+.titleContact {
+    text-align: center;
+}
+
+.input-group-addon {
+    border: 1px solid $grey;
+    align-content: center;
+    text-align: center;
+    font-size: 22px;
+    width: 35px;
+}
+
+.info-contact {
+    border: 1px solid $darkgrey;
+    padding: 35px;
+}
+
+.contact-info {
+    h3{
+        font-size:17px;
+        font-weight: bold;
+    }
+    .from-left{
+        margin-right: 10px;
+    }
+    hr {
+
+        background-color: white;
+        width: 70%;
+        position: relative;
+        left: -60px;
+    }
+}

@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@font-face {
+    font-family: "Anurati";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/Anurati-Regular.otf?ca8632f4d0aacae4633cbfc2f1a673f1);
+}
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Théme Light
+@import 'style';
+
+// Théme Dark
+@import 'styleDark';

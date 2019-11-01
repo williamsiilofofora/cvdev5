@@ -1,0 +1,38 @@
+/** Dark CSS */
+
+.dark {
+    color: #ffffff;
+
+    button {
+        background: rgb(47, 42, 42);
+        color: #fff;
+    }
+
+    #contact {
+        background-color: $black;
+        min-height: 100vh;
+        padding: 45px 0;
+        color: white;
+    }
+
+    .input-group-addon {
+        border: 1px solid white;
+        align-content: center;
+        text-align: center;
+        font-size: 22px;
+        width: 35px;
+    }
+
+    .info-contact {
+        padding: 35px;
+        background-color: $darkgrey;
+    }
+
+    .contact-info hr {
+        color: white;
+        background-color: white;
+        width: 70%;
+        position: relative;
+        left: -60px;
+    }
+}
