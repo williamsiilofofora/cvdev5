@@ -48,7 +48,7 @@
 ol.carousel-indicators {
     position: absolute;
     bottom: 5px;
-    margin: 0 ;
+    margin: 10 ;
     left: 0;
     right: 0;
     width: auto;
@@ -66,27 +66,38 @@ ol.carousel-indicators li.active {
 
 ol.carousel-indicators li {
     background: rgba(255, 255, 255, 0.39);
-    // margin-left:.5em;
-    // margin-right: .5em;
+
 }
 
 ol.carousel-indicators li.active {
     background: white;
    
 }
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    background-color: blanchedalmond;
-    opacity: 0.9;
-    width:30px;
-    height: 30px;
-    span {
-        background-color:$black;
+.chevron {
+    font-size:35px;
+    background-color:transparent;
+    border-radius:50%;
+    text-align: center;
+    color:white;
+    width:45px;
+    height: 45px;
+    border: 2px solid white;
+    .fa-chevron-left {
+        position: relative;
+        top: -4px;
+        left:-4px;
+    }
+    .fa-chevron-right {
+        position: relative;
+        top: -4px;
+        left: 4px;
     }
 }
 .carousel-caption {
     top:34%;
-    
+    h5 {
+        font-size:50px;
+    }
 }
 // bouton  darktheme
 #darkTrigger{

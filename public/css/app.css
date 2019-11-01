@@ -11162,7 +11162,7 @@ a.text-dark:focus {
 ol.carousel-indicators {
   position: absolute;
   bottom: 5px;
-  margin: 0;
+  margin: 10;
   left: 0;
   right: 0;
   width: auto;
@@ -11186,21 +11186,35 @@ ol.carousel-indicators li.active {
   background: white;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  background-color: blanchedalmond;
-  opacity: 0.9;
-  width: 30px;
-  height: 30px;
+.chevron {
+  font-size: 35px;
+  background-color: transparent;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border: 2px solid white;
 }
 
-.carousel-control-next-icon span,
-.carousel-control-prev-icon span {
-  background-color: #1f1f1f;
+.chevron .fa-chevron-left {
+  position: relative;
+  top: -4px;
+  left: -4px;
+}
+
+.chevron .fa-chevron-right {
+  position: relative;
+  top: -4px;
+  left: 4px;
 }
 
 .carousel-caption {
   top: 34%;
+}
+
+.carousel-caption h5 {
+  font-size: 50px;
 }
 
 #darkTrigger {

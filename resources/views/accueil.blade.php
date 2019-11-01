@@ -11,32 +11,32 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100 " src="{{asset('./images/background.jpg')}}" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Developpeur Web</h5>
+                <div class="carousel-caption d-none d-md-block fadeOut">
+                    <h5 class="">Developpeur Web</h5>
                     <p>...</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100 " src="{{asset('./images/fondo-abst.jpg')}}" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Design Web</h5>
+                <div class="carousel-caption d-none d-md-block fadeOut">
+                    <h5 class="">Design Web</h5>
                     <p>...</p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100 " src="{{asset('./images/fond-tech.jpg')}}" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Developpeur D'applications</h5>
+                <div class="carousel-caption d-none d-md-block fadeOut">
+                    <h5 class="">Developpeur D'applications</h5>
                     <p>...</p>
                 </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="chevron" aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
             <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="chevron" aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
             <span class="sr-only">Next</span>
         </a>
     </div>

@@ -1,7 +1,12 @@
 $(document).ready(function () {
 
-
-
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        $('.fadeOut, .slogan').stop().animate(
+            { opacity: ((180 - scroll) / 100) + 0.1 },
+            "slow"
+        );
+    
 
 $("#darkTrigger").click(function () {
     if ($("body").hasClass("dark")) {
@@ -15,5 +20,5 @@ $("#darkTrigger").click(function () {
      interval, 2000
  )
 
-
+   
 });
