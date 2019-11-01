@@ -1,20 +1,33 @@
 /** Light CSS */
-// menu
+// Menu
 .navbar-brand span {
     font-family: "Anurati";
 }
-.navbar{
-    width:100%
-}.navbar{
-    position:fixed;
+
+.navbar {
+    width: 100%
+}
+
+.navbar {
+    position: fixed;
     z-index: 5;
 }
+
 // Section Slider
-.slider img {
- width: 100%;
- max-height: 100vh;
+video#bgvid {
+    position: relative;
+    right: 0;
+    max-height: 100vh;
+    background-color:$darkgrey;
+    object-fit: cover;
+    background-size: cover;
 }
-//  effet parallax
+.slider img {
+    width: 100%;
+    max-height: 100vh;
+}
+
+//  Effet Parallax
 .main-container {
     perspective: 1px;
     transform-style: preserve-3d;
@@ -24,11 +37,9 @@
 }
 
 .parallax-container {
-    // display: flex;
-    // flex: 1 0 auto;
     position: relative;
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
     height: 100vh;
     transform: translateZ(-1px) scale(2);
     z-index: -1;
@@ -40,18 +51,21 @@
     background-color: white;
     z-index: 1;
 }
-// carroussel indicator
+
+// Carroussel Indicator
 .carousel {
-    left:0;
-    margin:-5px;
+    left: 0;
+    margin: -5px;
 }
+
 ol.carousel-indicators {
     position: absolute;
     bottom: 5px;
-    margin: 10 ;
+    margin: 10;
     left: 0;
     right: 0;
     width: auto;
+    top:90%;
 }
 
 ol.carousel-indicators li,
@@ -71,41 +85,48 @@ ol.carousel-indicators li {
 
 ol.carousel-indicators li.active {
     background: white;
-   
+
 }
+
 .chevron {
-    font-size:35px;
-    background-color:transparent;
-    border-radius:50%;
+    font-size: 35px;
+    background-color: transparent;
+    border-radius: 50%;
     text-align: center;
-    color:white;
-    width:45px;
+    color: white;
+    width: 45px;
     height: 45px;
     border: 2px solid white;
+
     .fa-chevron-left {
         position: relative;
         top: -4px;
-        left:-4px;
+        left: -4px;
     }
+
     .fa-chevron-right {
         position: relative;
         top: -4px;
         left: 4px;
     }
 }
+
 .carousel-caption {
-    top:34%;
+    top: 34%;
+    z-index: 10;
     h5 {
-        font-size:50px;
+        font-size: 50px;
     }
 }
-// bouton  darktheme
-#darkTrigger{
-    position:fixed;
-    top:55px;
-    left:0;
+
+// Button  darktheme
+#darkTrigger {
+    position: fixed;
+    top: 55px;
+    left: 0;
 }
-// Section contact
+
+// Section Contact
 #contact {
     background-color: white;
     min-height: 100vh;
@@ -135,13 +156,15 @@ ol.carousel-indicators li.active {
 }
 
 .contact-info {
-    h3{
-        font-size:17px;
+    h3 {
+        font-size: 17px;
         font-weight: bold;
     }
-    .from-left{
+
+    .from-left {
         margin-right: 10px;
     }
+
     hr {
 
         background-color: white;
@@ -150,3 +173,96 @@ ol.carousel-indicators li.active {
         left: -60px;
     }
 }
+
+// skill Bar
+
+
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
+}
+// Section Services
+ #services{
+     height: 100vh;
+     background-color: $darkgrey;
+     .discribe{
+         text-align: center;
+     }
+     .idea{
+
+     }
+     img {
+         width:90%;
+     }
+     .services{
+         text-align: center;
+     }
+ }
