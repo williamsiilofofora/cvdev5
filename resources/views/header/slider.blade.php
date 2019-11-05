@@ -1,40 +1,41 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100 " src="{{asset('./images/background.jpg')}}" alt="First slide">
-                <div class="carousel-caption d-none d-md-block fadeOut">
-                    <h5 class="">Developpeur Web</h5>
-                    <p>...</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <video  class="d-block w-100 "id="bgvid" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="{{asset('./video/deskwork.mp4')}}" alt="Second slide" type="video/mp4">
-</video>
- <div class="carousel-caption d-none d-md-block fadeOut">
-                    <h5 class="">Design Web</h5>
-                    <p>...</p>
-                </div>
-            </div> 
-            <div class="carousel-item">
-                <img class="d-block w-100 " src="{{asset('./images/fond-tech.jpg')}}" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block fadeOut">
-                    <h5 class="">Developpeur D'applications</h5>
-                    <p>...</p>
-                </div>
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active slideun">
+            <img class="d-block w-100 " src="{{asset('./images/background.jpg')}}" alt="First slide">
+            <div class="carousel-caption d-none d-md-block fadeOut">
+                <h5 class="">Developpeur Web</h5>
+                <p>...</p>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="chevron" aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="chevron" aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item slidedeux">
+            <video class="d-block w-100 " id="bgvid" playsinline="playsinline" autoplay="autoplay" muted="muted"
+                loop="loop">
+                <source src="{{asset('./video/deskwork.mp4')}}" alt="Second slide" type="video/mp4">
+            </video>
+            <div class="carousel-caption d-none d-md-block fadeOut">
+                <h5 class="">Design Web</h5>
+                <p>...</p>
+            </div>
+        </div>
+        <div class="carousel-item slidetrois">
+            <img class="d-block w-100 " src="{{asset('./images/fond-tech.jpg')}}" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block fadeOut">
+                <h5 class="">Developpeur D'applications</h5>
+                <p>...</p>
+            </div>
+        </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="chevron" aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="chevron" aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>

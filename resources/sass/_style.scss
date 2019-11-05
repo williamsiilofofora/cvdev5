@@ -1,5 +1,13 @@
 /** Light CSS */
-// bounceleft
+// animation
+
+
+ .animated {
+    
+ animation-duration: 1.5s;
+ animation-iteration-count: linear;
+ animation-delay:0.5s;
+}
 
 // Menu
 .navbar-brand span {
@@ -25,9 +33,24 @@ video#bgvid {
     background-size: cover;
 }
 
-.slider img {
+.slider,.slider img {
     width: 100%;
     max-height: 100vh;
+}
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+
+
+body{
+ min-height: 100vh;
+ overflow-x: hidden;
+ overflow-y: auto;
+//  perspective: 1px;
+ transform-style: preserve-3d;
+ 
 }
 
 //  Effet Parallax
@@ -35,8 +58,11 @@ video#bgvid {
     perspective: 1px;
     transform-style: preserve-3d;
     height: 100vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    // overflow-x: hidden;
+    // overflow-y: auto;
+    // -webkit-overflow-scrolling: touch !important;
+    
+
 }
 
 .parallax-container {
@@ -44,8 +70,9 @@ video#bgvid {
     left: 0;
     top: 0;
     height: 100vh;
-    transform: translateZ(-1px) scale(2);
-    z-index: -1;
+    // transform: translateZ(-1px) scale(2);
+    // z-index: -1;
+    
 }
 
 .content-container {
@@ -125,9 +152,10 @@ ol.carousel-indicators li.active {
 
 // Button  darktheme
 #darkTrigger {
-    position: fixed;
+    position: absolute;
     top: 55px;
     left: 0;
+    z-index: 1;
 }
 
 // Section Contact
@@ -256,6 +284,7 @@ ol.carousel-indicators li.active {
 
 // Section Services
 #services {
+    height:100%;
     min-height: 100vh;
     background-color: $lightgrey;
 

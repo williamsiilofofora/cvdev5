@@ -14,6 +14,7 @@
     </div>
     </div>
     </section>
+</section>
     <section id="services">
         @include('services.services')
     </section>
@@ -28,5 +29,5 @@
             @include('contact.form')
         </div>
     </section>
-</section>
+
 @endsection
