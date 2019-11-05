@@ -1,13 +1,11 @@
 $(document).ready(function () {
 
-document.body.addEventListener('scroll', () =>{
-      scroll_pos = $(window).scrollTop() + $(window).height();
-      element_pos = $('.animated').offset().top + $('.animated').height();
-      if (scroll_pos > element_pos) {
-          $('.from-left').addClass(' bounceInLeft');
-          $('.from-right').addClass(' bounceInRight');
-           $('.ecrans').addClass(' jackInTheBox');
-}});
+
+
+
+
+
+
 
 
 
@@ -23,14 +21,15 @@ document.body.addEventListener('scroll', () =>{
             $("body").addClass("dark");
         }
     });
-    // $(window).on('scroll', function () {
-    //     // console.log($(document.body).height());
-    //     scroll_pos = $(window).scrollTop() + $(window).height();
-    //     element_pos = $('.animated').offset().top + $('.animated').height();
-    //     if (scroll_pos > element_pos) {
-    //         $('.animated').addClass('fadeInLeft');
-    //     };
+    document.body.addEventListener('scroll', function () {
+        // console.log($(document.body).height());
+        scroll_pos = $('body').scrollTop() + $('body').height();
+        element_pos = $('.animated').offset().top + $('.animated').height();
+        if (scroll_pos > element_pos) {
+              $(".animated").css("animation-play-state", "running");
+             
+        }
 
-    // });
+    });
 
 });

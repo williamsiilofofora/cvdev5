@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="slider parallax-container">
+<section class="slider parallax-container scroll-animations">
     @include('header.slider')
 </section>
 <section class="content-container">
@@ -27,6 +27,9 @@
         <div class="container row mx-auto contact">
             @include('contact.contact')
             @include('contact.form')
+        </div>
+        <div class=" container-fluid">
+            @include('footer.footer')
         </div>
     </section>
 

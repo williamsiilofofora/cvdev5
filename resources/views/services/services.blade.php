@@ -23,7 +23,7 @@
     </div>
     <div class=" d-flex justify-content-center row mx-auto">
         <div class="col-sm-10 col-md-10 col-lg-9 col-xl-3 ">
-            <div class="icons row from-left animated">
+            <div class="icons row bounceInLeft animated">
                 <span class=' groupIconLeft'><i class="fa fa-pencil " aria-hidden="true"></i></span>
                 <div class="col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <div class='icons row from-left animated'>
+            <div class='icons row bounceInLeft animated'>
                 <span class=' groupIconLeft'><i class="fa fa-desktop" aria-hidden="true"></i></span>
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
@@ -43,7 +43,7 @@
                 </div>
             </div>
 
-            <div class='icons row from-left animated'>
+            <div class='icons row bounceInLeft animated'>
                 <span class=' groupIconLeft'><i class="fa fa-database" aria-hidden="true"></i></span>
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
@@ -56,10 +56,10 @@
         </div>
 
         <div class="display col-lg-3 col-xl-3">
-            <img src="../images/media.png" alt="ecrans" class="ecrans animated">
+            <img src="../images/media.png" alt="ecrans" class="jackInTheBox animated">
         </div>
         <div class="col-sm-10 col-md-10 col-lg-9 col-xl-3 serviceContentRight">
-            <div class="icons row from-right animated">
+            <div class="icons row bounceInRight animated">
                 <span class=' groupIconRight '><i class="fa fa-check-square-o" aria-hidden="true"></i></span>
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-            <div class='icons row from-right animated'>
+            <div class='icons row bounceInRight animated'>
                 <span class=' groupIconRight'><i class="fa fa-mobile" aria-hidden="true"></i></span>
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
@@ -81,7 +81,7 @@
                 </div>
             </div>
 
-            <div class='icons row from-right animated'>
+            <div class='icons row bounceInRight animated'>
                 <span class=' groupIconRight'><i class="fa fa-wrench" aria-hidden="true"></i></span>
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>

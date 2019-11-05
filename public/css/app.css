@@ -11184,6 +11184,10 @@ a.text-dark:focus {
   }
 }
 
+li {
+  list-style: none;
+}
+
 /** Light CSS */
 
 .animated {
@@ -11191,8 +11195,10 @@ a.text-dark:focus {
           animation-duration: 1.5s;
   -webkit-animation-iteration-count: linear;
           animation-iteration-count: linear;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  -webkit-animation-delay: count;
+          animation-delay: count;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 .navbar-brand span {

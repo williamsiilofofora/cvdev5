@@ -1,6 +1,6 @@
 <div class="d-flex container-fluid row justify-content-center">
         <div class="res col-sm-10 col-md-6 col-lg-5 col-xl-5 mx-auto">
-            <h4 class="title">HEXCODE</h4>
+            <h4 class="title">Lez'Arts Du Web</h4>
         </div>
         <div class=" res col-sm-10 col-md-6 col-lg-5 col-xl-5 ">
             <ul class="row reseaux mx-auto">
