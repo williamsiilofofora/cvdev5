@@ -1,20 +1,25 @@
+html {
+    // overflow: hidden;
+    // height: 100%;
+}
 
-
-li{
+li {
     list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container-fluid {
+    padding: 0;
 }
 
 /** Light CSS */
 // animation
-
-
-
- .animated {
+.animated {
     animation-duration: 1.5s;
-     animation-iteration-count:linear;
-     animation-delay:count;
-     animation-play-state:paused;
- 
+    animation-iteration-count: linear;
+    animation-delay: 1.5s;
+    animation-play-state: paused;
 }
 
 // Menu
@@ -23,13 +28,13 @@ li{
 }
 
 .navbar {
-    width: 100%
+    width: 100%;
+   position: sticky;
+     top: 0;
+     left: 0;
+     z-index: 80;
 }
 
-.navbar {
-    position: fixed;
-    z-index: 5;
-}
 
 // Section Slider
 video#bgvid {
@@ -41,45 +46,33 @@ video#bgvid {
     background-size: cover;
 }
 
-.slider,.slider img {
+.slider,
+.slider img {
     width: 100%;
     max-height: 100vh;
 }
-html {
-    overflow: hidden;
-    height: 100%;
-}
 
 
 
-body{
- min-height: 100vh;
- overflow-x: hidden;
- overflow-y: auto;
-//  perspective: 1px;
- transform-style: preserve-3d;
- 
+
+body {
+    // min-height: 100vh;
+    overflow-x: hidden;
+    // overflow-y: auto;
+    transform-style: preserve-3d;
 }
 
 //  Effet Parallax
 .main-container {
-    perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100vh;
-    // overflow-x: hidden;
-    // overflow-y: auto;
-    
-
+    // perspective: 1px;
+    // transform-style: preserve-3d;
+    // height: 100vh;
 }
 
 .parallax-container {
-    position: relative;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    // transform: translateZ(-1px) scale(2);
-    // z-index: -1;
-    
+    // position: relative;
+    // left: 0;
+    // top: 0;
 }
 
 .content-container {
@@ -158,12 +151,7 @@ ol.carousel-indicators li.active {
 }
 
 // Button  darktheme
-#darkTrigger {
-    position: absolute;
-    top: 55px;
-    left: 0;
-    z-index: 1;
-}
+#darkTrigger {}
 
 // Section Contact
 #contact {
@@ -291,7 +279,6 @@ ol.carousel-indicators li.active {
 
 // Section Services
 #services {
-    height:100%;
     min-height: 100vh;
     background-color: $lightgrey;
 
@@ -314,11 +301,12 @@ ol.carousel-indicators li.active {
     .services {
         text-align: center;
         font-weight: bold;
-        padding:40px 0;
-        h2{
+        padding: 40px 0;
+
+        h2 {
             font-size: 45px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            
+
         }
     }
 
@@ -356,4 +344,33 @@ ol.carousel-indicators li.active {
     h4 {
         color: $green;
     }
+}
+
+// css footer
+.reseaux{
+    text-align: center;
+    width: 100%;
+}
+.reseaux li {
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    background-color: $green;
+    margin-left:15px;
+
+
+}
+.reseaux li a{
+    color:white;
+    font-size:25px;
+    margin:0 auto;
+    padding:0;
+
+}
+#footer {
+    background-color: $lightgrey;
+    width: 100%;
+    padding-top:25px;
+   
+
 }

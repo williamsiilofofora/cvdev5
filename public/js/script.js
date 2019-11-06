@@ -1,14 +1,5 @@
 $(document).ready(function () {
 
-
-
-
-
-
-
-
-
-
     $('.skillbar').each(function () {
         $(this).find('.skillbar-bar').animate({
             width: $(this).attr('data-percent')
@@ -21,13 +12,14 @@ $(document).ready(function () {
             $("body").addClass("dark");
         }
     });
-    document.body.addEventListener('scroll', function () {
+    $(window).on('scroll', function () {
         // console.log($(document.body).height());
-        scroll_pos = $('body').scrollTop() + $('body').height();
+        scroll_pos = $(window).scrollTop() + $(window).height();
+        // console.log(scroll_pos);
         element_pos = $('.animated').offset().top + $('.animated').height();
         if (scroll_pos > element_pos) {
-              $(".animated").css("animation-play-state", "running");
-             
+            $(".animated").css("animation-play-state", "running");
+
         }
 
     });

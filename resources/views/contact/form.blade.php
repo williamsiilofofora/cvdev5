@@ -4,8 +4,8 @@
             enctype="multipart/form-data" novalidate>
             @csrf
             <fieldset>
-                
-                
+
+
                 <div class="blocFormContact from-right2 animated">
                     <div class="col-lg-12 ">
                         <div class="form-group input-group ">

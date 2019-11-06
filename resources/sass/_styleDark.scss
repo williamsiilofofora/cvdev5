@@ -10,17 +10,13 @@
 
     #contact {
         background-color: $black;
-        min-height: 100vh;
-        padding: 45px 0;
+
         color: white;
     }
 
     .input-group-addon {
         border: 1px solid white;
-        align-content: center;
-        text-align: center;
-        font-size: 22px;
-        width: 35px;
+        
     }
 
     .info-contact {
@@ -37,7 +33,7 @@
     }
 
     #services {
-        height: 100vh;
+        
         background-color: $darkgrey;
         .idea {
             color: black
@@ -45,5 +41,11 @@
     }
     .content-container{
         background-color: $black;
+    }
+    #footer {
+        background-color: $darkgrey;
+      
+
+
     }
 }

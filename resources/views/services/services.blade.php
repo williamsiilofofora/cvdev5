@@ -1,6 +1,6 @@
 <div class="bg-service">
     <div class="services">
-        <h2>Mes Services</h2>
+        <h2 class="jackInTheBox animated">Mes Services</h2>
     </div>
     <div class="row">
         <div class="discribe  mx-auto col-lg-6 col-sm-8 col-xl-6">

@@ -11188,6 +11188,14 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 /** Light CSS */
 
 .animated {
@@ -11195,8 +11203,8 @@ li {
           animation-duration: 1.5s;
   -webkit-animation-iteration-count: linear;
           animation-iteration-count: linear;
-  -webkit-animation-delay: count;
-          animation-delay: count;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
@@ -11207,11 +11215,11 @@ li {
 
 .navbar {
   width: 100%;
-}
-
-.navbar {
-  position: fixed;
-  z-index: 5;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 80;
 }
 
 video#bgvid {
@@ -11230,32 +11238,10 @@ video#bgvid {
   max-height: 100vh;
 }
 
-html {
-  overflow: hidden;
-  height: 100%;
-}
-
 body {
-  min-height: 100vh;
   overflow-x: hidden;
-  overflow-y: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-}
-
-.main-container {
-  -webkit-perspective: 1px;
-          perspective: 1px;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  height: 100vh;
-}
-
-.parallax-container {
-  position: relative;
-  left: 0;
-  top: 0;
-  height: 100vh;
 }
 
 .content-container {
@@ -11328,13 +11314,6 @@ ol.carousel-indicators li.active {
 
 .carousel-caption h5 {
   font-size: 50px;
-}
-
-#darkTrigger {
-  position: absolute;
-  top: 55px;
-  left: 0;
-  z-index: 1;
 }
 
 #contact {
@@ -11449,7 +11428,6 @@ ol.carousel-indicators li.active {
 }
 
 #services {
-  height: 100%;
   min-height: 100vh;
   background-color: #dbdad7;
 }
@@ -11517,6 +11495,32 @@ ol.carousel-indicators li.active {
   color: #38c172;
 }
 
+.reseaux {
+  text-align: center;
+  width: 100%;
+}
+
+.reseaux li {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #38c172;
+  margin-left: 15px;
+}
+
+.reseaux li a {
+  color: white;
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#footer {
+  background-color: #dbdad7;
+  width: 100%;
+  padding-top: 25px;
+}
+
 /** Dark CSS */
 
 .dark {
@@ -11530,17 +11534,11 @@ ol.carousel-indicators li.active {
 
 .dark #contact {
   background-color: #1f1f1f;
-  min-height: 100vh;
-  padding: 45px 0;
   color: white;
 }
 
 .dark .input-group-addon {
   border: 1px solid white;
-  align-content: center;
-  text-align: center;
-  font-size: 22px;
-  width: 35px;
 }
 
 .dark .info-contact {
@@ -11557,7 +11555,6 @@ ol.carousel-indicators li.active {
 }
 
 .dark #services {
-  height: 100vh;
   background-color: #3d3d3d;
 }
 
@@ -11567,5 +11564,9 @@ ol.carousel-indicators li.active {
 
 .dark .content-container {
   background-color: #1f1f1f;
+}
+
+.dark #footer {
+  background-color: #3d3d3d;
 }
 

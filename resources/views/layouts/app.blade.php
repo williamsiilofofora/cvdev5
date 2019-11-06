@@ -12,7 +12,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    
+
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -25,10 +25,10 @@
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm  ">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <span>L</span>ez'<span>A</span>rts <span>D</span>u <span>W</span>eb
+                    <span style="color:green"><span>L</span>ez'<span>A</span>rts </span><span>D</span>u <span>W</span>eb
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -94,14 +94,18 @@
                         @endguest
                     </ul>
                 </div>
+                <button id="darkTrigger">Darktheme<i class="fa fa-adjust"></i></button>
             </div>
         </nav>
+        
+            @include('header.slider')
+        </header>
 
         <main class="py-0 main-container ">
             @yield('content')
         </main>
     </div>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="{{asset('js/script.js')}}" defer></script>
 
 </body>
