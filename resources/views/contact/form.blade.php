@@ -26,7 +26,7 @@
                                 autocomplete="off">
                         </div>
                         <div class="form-group input-group">
-                            <textarea class="form-control" cols="30" rows="8" name="message"
+                            <textarea class="form-control" cols="30" rows="10" name="message"
                                 placeholder="Message"></textarea>
 
                         </div>

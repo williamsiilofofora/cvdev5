@@ -2,7 +2,15 @@
 
 .dark {
     color: #ffffff;
-
+    .navbar {
+        background-color: $darkgrey;
+        a{
+            color:white;
+        }
+    }
+    #portfolio{
+        background-color: $darkgrey;
+    }
     button {
         background: rgb(47, 42, 42);
         color: #fff;
@@ -31,6 +39,12 @@
         position: relative;
         left: -60px;
     }
+    #tech{
+        background-color: $black;
+        h3{
+            color:white;
+        }
+    }
 
     #services {
         
@@ -38,8 +52,14 @@
         .idea {
             color: black
         }
+        .groupIconLeft:hover,
+        .groupIconRight:hover {
+            border: 2px solid $darkgrey;
+            color: $darkgrey;
+            background-color: $green;
+        }
     }
-    .content-container{
+    #aboutMe{
         background-color: $black;
     }
     #footer {

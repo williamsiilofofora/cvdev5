@@ -12,7 +12,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" async></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
+    
 </head>
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm  ">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light shadow-sm  ">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <span style="color:green"><span>L</span>ez'<span>A</span>rts </span><span>D</span>u <span>W</span>eb
@@ -61,6 +61,8 @@
                             <a href="#contact" class="nav-link menuContact">Contact</a>
                         </li>
 
+
+
                         @guest
 
                         <!-- Authentication Links -->
@@ -92,21 +94,25 @@
                             </div>
                         </li>
                         @endguest
+                        <li class="nav-item">
+                            <a id="darkTrigger" class="nav-link" style="padding:4px">Darktheme
+                            <button class="btn btn-sm" ><i class="fa fa-adjust"></i></button></a>
+                        </li>
                     </ul>
                 </div>
-                <button id="darkTrigger">Darktheme<i class="fa fa-adjust"></i></button>
+
             </div>
         </nav>
-        
-            @include('header.slider')
-        </header>
 
-        <main class="py-0 main-container ">
+
+        <main class="py-0">
             @yield('content')
         </main>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="{{asset('js/script.js')}}" defer></script>
+    
+    <script src={{asset('js/script.js')}} defer></script>
+    
+
 
 </body>
 
