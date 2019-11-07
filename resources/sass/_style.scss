@@ -22,30 +22,13 @@ a{
 
 /** Light CSS */
 /* animation */
-.animation {
+.animated {
     animation-duration: 1.5s;
     animation-iteration-count: linear;
     animation-delay: 1s;
     animation-play-state: paused;
 }
-.animation1 {
-    animation-duration: 1.5s;
-    animation-iteration-count: linear;
-    animation-delay: 1s;
-    animation-play-state: paused;
-}
-.animation2 {
-    animation-duration: 1.5s;
-    animation-iteration-count: linear;
-    animation-delay: 1s;
-    animation-play-state: paused;
-}
-.animation3 {
-    animation-duration: 1.5s;
-    animation-iteration-count: linear;
-    animation-delay: 1s;
-    animation-play-state: paused;
-}
+
 
 
 // Menu
@@ -71,12 +54,15 @@ video#bgvid {
     background-color: $darkgrey;
     object-fit: cover;
     background-size: cover;
+    z-index: 8;
 }
 
 .slider,
 .slider img {
+    position:relative;
     width: 100%;
     max-height: 100vh;
+     z-index: 8;
 }
 
 
@@ -103,7 +89,11 @@ video#bgvid {
     max-height: 100vh !important;
     overflow-y: auto;
 }
-
+.carousel-control-prev,
+.carousel-control-next {
+   
+    z-index: 10 !important;
+}
 ol.carousel-indicators {
     position: absolute;
     bottom: 5px;
@@ -183,7 +173,9 @@ ol.carousel-indicators li.active {
     width: 100%;
     
 }
-
+#tech{
+    padding-top: 40px;
+}
 // slideshow
 
 .slideshow {
@@ -340,6 +332,7 @@ margin-top:55px;
 #services {
     min-height: 100vh;
     background-color: $lightgrey;
+    padding-bottom: 40px;
 
     .discribe {
         text-align: center;
@@ -618,4 +611,20 @@ figure.snip.hover figcaption {
 
 .footerWidget{
     text-align: center;
+}
+// ancre
+.ancre{
+    border-radius:50%;
+    position:fixed;
+    top: 80%;
+    left:85%;
+    border:2px solid green;
+    width:50px;
+    height: 50px;
+    text-align: center;
+    z-index: 7;
+    // align-items: center;
+    font-size:30PX;
+    background-color: TRANSPAREBT;
+    color:green;
 }

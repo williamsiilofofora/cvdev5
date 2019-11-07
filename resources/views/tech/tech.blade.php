@@ -22,7 +22,7 @@
                     <li><img src={{asset('./images/css3.png')}} alt="CSS3"></li>
                     <li><img src={{asset('./images/js.png')}} alt="JS"></li>
                     <li><img src={{asset('./images/ajax.png')}} alt="Ajax"></li>
-                    <li><img src={{asset('./images/jquery.png')}} alt="jQuery"></li>
+                    <li><img src={{asset('./images/jquery2.png')}} alt="jQuery"></li>
                     <li><img src={{asset('./images/git.png')}} alt="GIT"></li>
 
                 </ul>

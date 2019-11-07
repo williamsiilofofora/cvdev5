@@ -15,7 +15,7 @@
             </p>
         </div>
     </div>
-    <div class="idea mx-auto col-sm-10 col-md-10 col-lg-6 col-xl-4">
+    <div class="idea mx-auto col-sm-10 col-md-10 col-lg-6 col-xl-4 animated zoomInUp animation">
         <p>Une idée ? Un projet ? N'hesitez pas à me<br><a class="menuContact" href="#">CONTACTER !</a></p>
     </div>
     <div class="services mx-auto col-sm-10 col-md-10 col-lg-6 col-xl-4">

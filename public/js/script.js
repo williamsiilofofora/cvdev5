@@ -6,7 +6,7 @@ $(document).ready(function () {
         }, 6000);
     });
     $("#darkTrigger").click(function () {
-        if($('.navbar').hasClass("navbar-light")){
+        if ($('.navbar').hasClass("navbar-light")) {
             $('.navbar').removeClass("navbar-light");
             $('.navbar').addClass("navbar-dark");
 
@@ -51,16 +51,64 @@ $(document).ready(function () {
 
     });
 
-setInterval(function () {
-    $(".slideshow ").animate({
-        marginLeft: -350
-    }, 800, function () {
-        $(this).css({
-            marginLeft: 0
-        }).find("li:last").after($(this).find("li:first"));
-    })
-}, 3500);
+    setInterval(function () {
+        $(".slideshow ").animate({
+            marginLeft: -350
+        }, 800, function () {
+            $(this).css({
+                marginLeft: 0
+            }).find("li:last").after($(this).find("li:first"));
+        })
+    }, 3500);
 
+    $('.menuAccueil').on('click', function (e) {
+        e.preventDefault();
+        $('html, body')
+            .stop()
+            .animate({
+                scrollTop: $("#bgvid").offset().top
+            }, 1000);
+    });
 
+    $('.menuAbout').on('click', function (e) {
+        e.preventDefault();
+        $('html, body')
+            .stop()
+            .animate({
+                scrollTop: $("#aboutMe").offset().top-50
+            }, 1000);
+    });
+    $('.menuServices').on('click', function (e) {
+        e.preventDefault();
+        $('html, body')
+            .stop()
+            .animate({
+                scrollTop: $("#services").offset().top - 50
+            }, 1000);
+    });
+    $('.menuPortfolio').on('click', function (e) {
+        e.preventDefault();
+        $('html, body')
+            .stop()
+            .animate({
+                scrollTop: $("#portfolio").offset().top - 50
+            }, 1000);
+    });
+    $('.menuContact').on('click', function (e) {
+        e.preventDefault();
+        $('html, body')
+            .stop()
+            .animate({
+                scrollTop: $("#contact").offset().top - 50
+            }, 1000);
+    });
+    $('.ancre').on('click', function (e) {
+        e.preventDefault();
+        $('html, body')
+            .stop()
+            .animate({
+                scrollTop: $("#bgvid").offset().top
+            }, 1500);
+    });
 
 });

@@ -11212,40 +11212,7 @@ a {
 
 /* animation */
 
-.animation {
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-iteration-count: linear;
-          animation-iteration-count: linear;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-.animation1 {
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-iteration-count: linear;
-          animation-iteration-count: linear;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-.animation2 {
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-iteration-count: linear;
-          animation-iteration-count: linear;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-.animation3 {
+.animated {
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
   -webkit-animation-iteration-count: linear;
@@ -11278,12 +11245,15 @@ video#bgvid {
   -o-object-fit: cover;
      object-fit: cover;
   background-size: cover;
+  z-index: 8;
 }
 
 .slider,
 .slider img {
+  position: relative;
   width: 100%;
   max-height: 100vh;
+  z-index: 8;
 }
 
 #aboutMe {
@@ -11305,6 +11275,11 @@ video#bgvid {
   margin: -5px;
   max-height: 100vh !important;
   overflow-y: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 10 !important;
 }
 
 ol.carousel-indicators {
@@ -11379,6 +11354,10 @@ ol.carousel-indicators li.active {
 
 .section-title {
   width: 100%;
+}
+
+#tech {
+  padding-top: 40px;
 }
 
 .slideshow {
@@ -11520,6 +11499,7 @@ ol.carousel-indicators li.active {
 #services {
   min-height: 100vh;
   background-color: #dbdad7;
+  padding-bottom: 40px;
 }
 
 #services .discribe {
@@ -11800,6 +11780,21 @@ figure.snip.hover figcaption {
 
 .footerWidget {
   text-align: center;
+}
+
+.ancre {
+  border-radius: 50%;
+  position: fixed;
+  top: 80%;
+  left: 85%;
+  border: 2px solid green;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  z-index: 7;
+  font-size: 30PX;
+  background-color: TRANSPAREBT;
+  color: green;
 }
 
 /** Dark CSS */

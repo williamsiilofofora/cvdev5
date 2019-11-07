@@ -40,6 +40,9 @@
     <div class=" container-fluid">
         @include('footer.footer')
     </div>
-</section>
 
+</section>
+<a href="#bgvid" class="ancre">
+        <i class="fa fa-arrow-up"></i>
+    </a>
 @endsection
