@@ -12,7 +12,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" async></script>
+{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" async></script> --}}
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -25,7 +25,7 @@
 
 <body>
     <div id="app">
-        <nav class="navbar fixed-top navbar-expand-md navbar-light shadow-sm  ">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light shadow-sm" style="position:sticky">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <span style="color:green"><span>L</span>ez'<span>A</span>rts </span><span>D</span>u <span>W</span>eb
@@ -95,7 +95,7 @@
                         </li>
                         @endguest
                         <li class="nav-item">
-                            <a id="darkTrigger" class="nav-link" style="padding:4px">Darktheme
+                            <a id="darkTrigger" class="nav-link">Darktheme
                             <button class="btn btn-sm" ><i class="fa fa-adjust"></i></button></a>
                         </li>
                     </ul>
@@ -109,7 +109,9 @@
             @yield('content')
         </main>
     </div>
-    
+    <a href="#bgvid" class="ancre" style="bottom:60px;right:60px">
+        <i class="fa fa-arrow-up"></i>
+    </a>
     <script src={{asset('js/script.js')}} defer></script>
     
 

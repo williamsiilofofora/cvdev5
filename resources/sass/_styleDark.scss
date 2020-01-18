@@ -8,12 +8,13 @@
             color:white;
         }
     }
-    #portfolio{
-        background-color: $darkgrey;
+    hr{
+        background-color: white;
     }
+    
     button {
-        background: rgb(47, 42, 42);
-        color: #fff;
+        background: $darkgrey;
+        color: white;
     }
 
     #contact {
@@ -46,7 +47,8 @@
         }
     }
 
-    #services {
+    #services
+     {
         
         background-color: $darkgrey;
         .idea {
@@ -62,10 +64,9 @@
     #aboutMe{
         background-color: $black;
     }
-    #footer {
+    #footer,
+    #info,
+    #portfolio {
         background-color: $darkgrey;
-      
-
-
     }
 }

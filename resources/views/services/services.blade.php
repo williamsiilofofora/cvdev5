@@ -85,7 +85,7 @@
                 <span class=' groupIconRight'><i class="fa fa-wrench" aria-hidden="true"></i></span>
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
-                    <h4>Gestion et Maintenace des sites</h4>
+                    <h4>Gestion et Maintenance des sites</h4>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nihil nostrum
                         explicabo
                         corrupti sapiente quod!</p>

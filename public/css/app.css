@@ -11229,8 +11229,6 @@ a {
 
 .navbar {
   width: 100%;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   left: 0;
   z-index: 80;
@@ -11256,7 +11254,19 @@ video#bgvid {
   z-index: 8;
 }
 
+#info {
+  width: 100%;
+  background-color: #dbdad7;
+}
+
+#info .info {
+  text-align: center;
+  font-size: 30px;
+  padding: 40px;
+}
+
 #aboutMe {
+  min-height: 100vh;
   padding: 40px 0;
   display: block;
   position: relative;
@@ -11343,7 +11353,7 @@ ol.carousel-indicators li.active {
 }
 
 #darkTrigger a {
-  padding: 4px !important;
+  padding: 7px !important;
 }
 
 #darkTrigger .btn {
@@ -11521,7 +11531,7 @@ ol.carousel-indicators li.active {
 #services .services {
   text-align: center;
   font-weight: bold;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 #services .services h2 {
@@ -11767,7 +11777,7 @@ figure.snip.hover figcaption {
 }
 
 #footer h5 {
-  color: green;
+  color: #38c172;
 }
 
 .res {
@@ -11785,16 +11795,16 @@ figure.snip.hover figcaption {
 .ancre {
   border-radius: 50%;
   position: fixed;
-  top: 80%;
-  left: 85%;
-  border: 2px solid green;
+  bottom: 60px;
+  right: 60px;
+  border: 2px solid #38c172;
   width: 50px;
   height: 50px;
   text-align: center;
   z-index: 7;
   font-size: 30PX;
-  background-color: TRANSPAREBT;
-  color: green;
+  background-color: transparent;
+  color: #38c172;
 }
 
 /** Dark CSS */
@@ -11811,13 +11821,13 @@ figure.snip.hover figcaption {
   color: white;
 }
 
-.dark #portfolio {
-  background-color: #3d3d3d;
+.dark hr {
+  background-color: white;
 }
 
 .dark button {
-  background: #2f2a2a;
-  color: #fff;
+  background: #3d3d3d;
+  color: white;
 }
 
 .dark #contact {
@@ -11869,7 +11879,9 @@ figure.snip.hover figcaption {
   background-color: #1f1f1f;
 }
 
-.dark #footer {
+.dark #footer,
+.dark #info,
+.dark #portfolio {
   background-color: #3d3d3d;
 }
 

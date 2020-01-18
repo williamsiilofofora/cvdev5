@@ -5,7 +5,9 @@
 <section class="slider">
     @include('header.slider')
 </section>
-
+<section id="info">
+    @include('Apropos.info')
+</section>
 <section id="aboutMe">
     <div class="aboutMe container-fluid col-sm-12 col-lg-10 col-xl-6">
         <h2 class="bounceInDown animated animation1">A Propos</h2>
@@ -42,7 +44,5 @@
     </div>
 
 </section>
-<a href="#bgvid" class="ancre">
-        <i class="fa fa-arrow-up"></i>
-    </a>
+
 @endsection
