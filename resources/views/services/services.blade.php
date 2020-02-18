@@ -1,6 +1,6 @@
 <div class="bg-service">
     <div class="services">
-        <h2 class="jackInTheBox animated animation">Mes Services</h2>
+        <h1 class="jackInTheBox animated animation">Mes Services</h1>
     </div>
     <div class="row">
         <div class="discribe  mx-auto col-lg-6 col-sm-8 col-xl-6">
@@ -28,8 +28,7 @@
                 <div class="col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nihil nostrum explicabo
-                        corrupti sapiente quod!</p>
+                    <p>Création de design adapté à vos goûts. Réalisation de logo</p>
                 </div>
             </div>
 
@@ -38,8 +37,7 @@
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Developpement Front</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nihil nostrum explicabo
-                        corrupti sapiente quod!</p>
+                    <p>Intégration et développement <br>HTML/CSS<br>Javascript</p>
                 </div>
             </div>
 
@@ -48,8 +46,9 @@
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Developpement Back</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nihil nostrum explicabo
-                        corrupti sapiente quod!</p>
+                    <p>Créations de base de données (SQL)
+                        et utilisation du PHP, pour rendre vos sites dynamique.
+                    </p>
                 </div>
                 <hr>
             </div>
@@ -64,9 +63,7 @@
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Referencement Naturel-SEO</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nihil nostrum
-                        explicabo
-                        corrupti sapiente quod!</p>
+                    <p>Utilisation d'outils et des standars de conceptions pour optimiser votre visibilitée</p>
                 </div>
             </div>
 
@@ -75,9 +72,7 @@
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Sites Responsive</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nihil nostrum
-                        explicabo
-                        corrupti sapiente quod!</p>
+                    <p>Des sites adaptés à tout les formats<br>-tablette<br>-smartphone</p>
                 </div>
             </div>
 
@@ -86,9 +81,7 @@
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Gestion et Maintenance des sites</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nihil nostrum
-                        explicabo
-                        corrupti sapiente quod!</p>
+                    <p>Mises à jour, gestion et optimisation du site</p>
                 </div>
                 <hr>
             </div>

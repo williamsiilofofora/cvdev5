@@ -6,7 +6,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active slideun">
-            <img class="d-block w-100 " src="{{asset('./images/background.jpg')}}" alt="First slide">
+            <img class="d-block w-100 " src="{{asset('./images/notebook-comp.jpg')}}" alt="First slide">
             <div class="carousel-caption d-none d-md-block fadeOut">
                 <h5 class="">Developpeur Web</h5>
                 <p>...</p>
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="carousel-item slidetrois">
-            <img class="d-block w-100 " src="{{asset('./images/fond-tech.jpg')}}" alt="Third slide">
+            <img class="d-block w-100 " src="{{asset('./images/computer-comp.jpg')}}" alt="Third slide">
             <div class="carousel-caption d-none d-md-block fadeOut">
                 <h5 class="">Developpeur D'applications</h5>
                 <p>...</p>

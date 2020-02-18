@@ -4,16 +4,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Williams KUBIAK">
+    {{-- TODO remplir meta description --}}
+    <meta name="description" content="Développeur web independant ,conception et développement web . référencement, optimisation, sites internet,
+     vitrine, e-commerce et des applications web Wordpress et Laravel pour les particuliers et les professionnels" lang="fr">
+    <meta name="keywords"
+        content="Développement web, Lez'arts du web, agence web, application web, sites internet, Worpress, woocommerce, prestashop, lavarel, vuejs, responsive, design, site internet, site web, Vannes, Morbihan, Etel, Lorient, Auray, 56, 56000, Bretagne, créative">
+    <meta name="language" content="fr">
+    <meta name="robots" content="index, follow">
+    <meta name="distribution" content="global">
+    <meta name="author" content="williams KUBIAK">
+    <meta name="copyright" content="Lez'Arts du web">
+    <meta name="abstract"
+        content="Ce site presente mon activité, mes réalisations et permet de me contacter">
+    <link rel="canonical" href="https://www.Le-coota.fr/" />
+    <meta property="og:title" content="Lez'Arts du web - Développeur freelance " />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="lezartsduweb.fr" />
+    <meta property="og:url" content="https://lezartsduweb.fr/" />
+    <meta property="og:description" content="Développeur web indépendant - freelance">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <title>{{ config('app.name', "Lez'Arts du Web") }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" async></script> --}}
-
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -23,12 +40,13 @@
     
 </head>
 
-<body>
+<body class="dark">
     <div id="app">
-        <nav class="navbar fixed-top navbar-expand-md navbar-light shadow-sm" style="position:sticky">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark shadow-sm" style="position:sticky">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <span style="color:green"><span>L</span>ez'<span>A</span>rts </span><span>D</span>u <span>W</span>eb
+                    <img src="{{asset('./images/logo3.png')}}" alt="logo">
+                    {{-- <span style="color:green"><span>L</span>ez'<span>A</span>rts </span><span>D</span>u <span>W</span>eb --}}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -66,9 +84,9 @@
                         @guest
 
                         <!-- Authentication Links -->
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                        </li>
+                        </li> --}}
                         @if (Route::has('register'))
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
@@ -95,7 +113,7 @@
                         </li>
                         @endguest
                         <li class="nav-item">
-                            <a id="darkTrigger" class="nav-link">Darktheme
+                            <a id="darkTrigger" class="nav-link">Ligththeme
                             <button class="btn btn-sm" ><i class="fa fa-adjust"></i></button></a>
                         </li>
                     </ul>

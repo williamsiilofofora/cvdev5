@@ -10,7 +10,7 @@
 </section>
 <section id="aboutMe">
     <div class="aboutMe container-fluid col-sm-12 col-lg-10 col-xl-6">
-        <h2 class="bounceInDown animated animation1">A Propos</h2>
+        <h1 class="bounceInDown animated animation1">A Propos</h1>
         <div class="container row d-sm-inline-flex">
             @include('Apropos.skillbar')
             @include('Apropos.presentation')
@@ -32,7 +32,7 @@
 
 <section id="contact">
     <div class="titleContact">
-        <h2>CONTACTEZ-MOI</h2>
+        <h1>CONTACTEZ-MOI</h1>
     </div>
     <hr style="width:30%;left:0;">
     <div class="container row mx-auto contact">

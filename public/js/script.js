@@ -75,7 +75,7 @@ $(document).ready(function () {
         $('html, body')
             .stop()
             .animate({
-                scrollTop: $("#aboutMe").offset().top-50
+                scrollTop: $("#aboutMe").offset().top-100
             }, 1000);
     });
     $('.menuServices').on('click', function (e) {
@@ -83,7 +83,7 @@ $(document).ready(function () {
         $('html, body')
             .stop()
             .animate({
-                scrollTop: $("#services").offset().top - 50
+                scrollTop: $("#services").offset().top - 100
             }, 1000);
     });
     $('.menuPortfolio').on('click', function (e) {
@@ -91,7 +91,7 @@ $(document).ready(function () {
         $('html, body')
             .stop()
             .animate({
-                scrollTop: $("#portfolio").offset().top - 50
+                scrollTop: $("#portfolio").offset().top - 100
             }, 1000);
     });
     $('.menuContact').on('click', function (e) {
@@ -99,7 +99,7 @@ $(document).ready(function () {
         $('html, body')
             .stop()
             .animate({
-                scrollTop: $("#contact").offset().top - 50
+                scrollTop: $("#contact").offset().top - 100
             }, 1000);
     });
     $('.ancre').on('click', function (e) {
@@ -108,7 +108,7 @@ $(document).ready(function () {
             .stop()
             .animate({
                 scrollTop: $("#bgvid").offset().top
-            }, 1500);
+            }, 1600);
     });
 
 });

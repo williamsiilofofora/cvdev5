@@ -14,10 +14,47 @@ $pink: #f66d9b;
 $red: #e3342f;
 $orange: #f6993f;
 $yellow: #ffed4a;
-$green: #38c172;
+$green: #008000;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
 $black:#1f1f1f;
 $darkgrey:#3d3d3d;
 $lightgrey:rgb(219, 218, 215);
 $grey:#6c757d;
+
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin breakpoint($point) {
+    @if $point==desktop {
+        @media (min-width: 70em) {
+            @content ;
+        }
+    }
+
+    @else if $point==laptop {
+        @media (min-width: 64em) {
+            @content ;
+        }
+    }
+
+    @else if $point==tablet {
+        @media (min-width: 50em) {
+            @content ;
+        }
+    }
+
+    @else if $point==phablet {
+        @media (min-width: 37.5em) {
+            @content ;
+        }
+    }
+
+    @else if $point==mobileonly {
+        @media (max-width: 37.5em) {
+            @content ;
+        }
+
+    }
+}
