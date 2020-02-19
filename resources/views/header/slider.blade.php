@@ -13,10 +13,7 @@
             </div>
         </div>
         <div class="carousel-item slidedeux">
-            <video class="d-block w-100 lazyload" id="bgvid" playsinline="playsinline" autoplay="autoplay" muted="muted"
-                loop="loop">
-                <source src="{{asset('./video/deskwork.mp4')}}" alt="Second slide" type="video/mp4">
-            </video>
+            <img class="d-block w-100 lazyload" src="{{asset('./images/laptop-comp.jpg')}}" alt="Second slide">
             <div class="carousel-caption d-none d-md-block fadeOut">
                 <h5 class="">Design Web</h5>
                 <p>...</p>

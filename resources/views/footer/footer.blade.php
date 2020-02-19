@@ -34,7 +34,7 @@
                     <p><i class="fa fa-phone" aria-hidden="true"></i> <span class="infosFooter"><a
                                 href="tel:+33675704110" title="">(+33) 6.75.70.41.10</a></span></p>
                     <p><i class="fa fa-envelope" aria-hidden="true"></i> <span class="infosFooter"><a
-                                href="mailto:">williams.kubiakpro@gmail.com</a></span></p>
+                                href="mailto:">lezartsduweb@gmail.com</a></span></p>
                     <p><i class="fa fa-link" aria-hidden="true"></i> <span class="infosFooter"><a
                                 href="#">www.lezartsduweb.fr</a></span></p>
                 </address>

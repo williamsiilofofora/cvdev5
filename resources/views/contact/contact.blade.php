@@ -12,7 +12,7 @@
             </div>
             <hr>
             <h3><i class="fa fa-envelope " aria-hidden="true"></i>  E-MAIL</h3>
-            <a class="mail" href="mailto:">williams.kubiakpro@gmail.com</a>
+            <a class="mail" href="mailto:">lezartsduweb@gmail.com</a>
             <hr>
 
             <h3><i class="fa fa-clock-o " aria-hidden="true"></i>  HORAIRES</h3>
