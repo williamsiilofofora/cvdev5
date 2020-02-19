@@ -4,7 +4,7 @@
 <hr style="width:30%">
 <div class=' container port row mx-auto'>
     <figure class=" snip col-xl-5 col-sm-11 col-md-11 col-lg-11 mx-auto animation2 animated bounceInLeft">
-        <img src="{{asset('./images/noManSky.jpg')}}" alt="nomansky" />
+        <img src="{{asset('./images/noManSky.jpg')}}" alt="nomansky" class="lazyload"/>
         <div class="title">
             <div>
                 <h2>No Man's Sky</h2>
@@ -18,7 +18,7 @@
         </a>
     </figure>
     <figure class="snip col-xl-5 col-sm-11 col-md-11 col-lg-11 mx-auto animation2 animated bounceInRight">
-        <img src="{{asset('./images/LeZArtsDuWeb-comp.jpg')}}" alt="Lez'arts du web" />
+        <img src="{{asset('./images/LeZArtsDuWeb-comp.jpg')}}" alt="Lez'arts du web" class="lazyload"/>
         <div class="title">
             <div>
                 <h2>Lez'Arts Du Web</h2>
@@ -31,7 +31,7 @@
         </a>
     </figure>
     <figure class=" snip col-xl-5 col-sm-11 col-md-11 col-lg-11 mx-auto animation2 animated bounceInLeft">
-        <img src="{{asset('./images/LeCoota-comp.jpg')}}" alt="Le Coota" />
+        <img src="{{asset('./images/LeCoota-comp.jpg')}}" alt="Le Coota" class="lazyload"/>
         <div class="title">
             <div>
                 <h2>Le Coota</h2>
@@ -45,7 +45,7 @@
         </a>
     </figure>
     <figure class=" snip col-xl-5 col-sm-11 col-md-11 col-lg-11 mx-auto animation2 animated bounceInRight">
-        <img src="{{asset('./images/guillemot-comp.jpg')}}" alt="Guillemot créations" />
+        <img src="{{asset('./images/guillemot-comp.jpg')}}" alt="Guillemot créations"class="lazyload" />
         <div class="title">
             <div>
                 <h2>Guillemot-créations</h2>

@@ -6,14 +6,14 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active slideun">
-            <img class="d-block w-100 " src="{{asset('./images/notebook-comp.jpg')}}" alt="First slide">
+            <img class="d-block w-100 lazyload" src="{{asset('./images/notebook-comp.jpg')}}" alt="First slide">
             <div class="carousel-caption d-none d-md-block fadeOut">
                 <h5 class="">Developpeur Web</h5>
                 <p>...</p>
             </div>
         </div>
         <div class="carousel-item slidedeux">
-            <video class="d-block w-100 " id="bgvid" playsinline="playsinline" autoplay="autoplay" muted="muted"
+            <video class="d-block w-100 lazyload" id="bgvid" playsinline="playsinline" autoplay="autoplay" muted="muted"
                 loop="loop">
                 <source src="{{asset('./video/deskwork.mp4')}}" alt="Second slide" type="video/mp4">
             </video>
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="carousel-item slidetrois">
-            <img class="d-block w-100 " src="{{asset('./images/computer-comp.jpg')}}" alt="Third slide">
+            <img class="d-block w-100 lazyload" src="{{asset('./images/computer-comp.jpg')}}" alt="Third slide">
             <div class="carousel-caption d-none d-md-block fadeOut">
                 <h5 class="">Developpeur D'applications</h5>
                 <p>...</p>

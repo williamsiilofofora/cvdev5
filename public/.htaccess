@@ -48,7 +48,12 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
 BrowserMatch ^Mozilla/4 gzip-only-text/html
 BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI "\.(?:gif|jpe?g|png)$" no-gzip
 </ifModule>
 
-
-
+<IfModule mod_headers.c>
+Header always set X-FRAME-OPTIONS "DENY"
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-XSS-Protection "1; mode=block"*Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
+</IfModule>

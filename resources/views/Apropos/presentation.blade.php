@@ -1,6 +1,6 @@
 <article class="col-xl-4 col-sm-12">
     <div id="photo" class="">
-        <img src={{asset('./images/images.jpg')}} alt="photo">
+        <img src={{asset('./images/images.jpg')}} alt="photo" class="lazyload">
 
     </div>
     <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
