@@ -2,9 +2,20 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158812833-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158812833-1');
+</script>
+
     <meta  http-equiv="Content-Type" content="text/html;charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Williams KUBIAK">
+    <meta name="google-site-verification" content="XM7Yokhm7KWs1AMxMyr1E8IQ6iigwKAxvj4bNhQZL9U" />
     {{-- TODO remplir meta description --}}
     <meta name="description" content="Développeur web independant ,conception et développement de sites internet,  
      vitrine, e-commerce et applications web pour les particuliers et professionnels" lang="fr">
@@ -77,7 +88,7 @@
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item">
-                            <a href="#bgvid" class="nav-link menuAccueil">Accueil</a>
+                            <a href=".slider" class="nav-link menuAccueil">Accueil</a>
                         </li>
                         <li class="nav-item">
                             <a href="#aboutMe" class="nav-link menuAbout">A propos de moi</a>
