@@ -175,7 +175,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        // Spatie\CookieConsent\CookieConsentServiceProvider::class,
+        Spatie\CookieConsent\CookieConsentServiceProvider::class,
     ],
 
     /*
