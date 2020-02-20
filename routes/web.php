@@ -17,3 +17,4 @@ Route::post('Store-Message', 'MessageController@store')->name('message.store');
 Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/rgpd', 'RGPDController@index')->name('rgpd.index');

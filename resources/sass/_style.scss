@@ -22,6 +22,26 @@ a{
 #app{
     width: 100vw;
 }
+
+/* cookie */
+.js-cookie-consent {
+    position: static;
+    bottom:0px;
+    padding:10px;
+    width: 100%;
+    z-index: 10000;
+    background-color: $grey;
+    text-align: center;
+    .js-cookie-consent-agree {
+        background-color: $green;
+    }
+}
+/*rgpd*/
+.rgpd a{
+    
+       color: $green; 
+    
+}
 /** Light CSS */
 /* animation */
 .animated {
@@ -707,6 +727,9 @@ figure.snip.hover figcaption {
     text-align: center;
     justify-content: center;
 
+}
+#contact>div.container-fluid>div.row.copy>p>a{
+    color: white;
 }
 // ancre
 .ancre{

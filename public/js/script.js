@@ -21,6 +21,8 @@ $(document).ready(function () {
 
         }
     });
+
+    $(".js-cookie-consent-agree ").addClass("btn btn-success").css("margin-left", "15px");
     $(window).on('scroll', function () {
         // console.log($(document.body).height());
         scroll_pos = $(window).scrollTop() + $(window).height();
@@ -66,7 +68,7 @@ $(document).ready(function () {
         $('html, body')
             .stop()
             .animate({
-                scrollTop: $("#bgvid").offset().top
+                scrollTop: $(".slider").offset().top - 100
             }, 1000);
     });
 
@@ -107,7 +109,7 @@ $(document).ready(function () {
         $('html, body')
             .stop()
             .animate({
-                scrollTop: $("#bgvid").offset().top
+                scrollTop: $(".slider").offset().top -100
             }, 1600);
     });
 

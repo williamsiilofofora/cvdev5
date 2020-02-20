@@ -63,7 +63,7 @@
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Referencement Naturel-SEO</h4>
-                    <p>Utilisation d'outils et des standars de conceptions pour optimiser votre visibilitée</p>
+                    <p>Utilisation d'outils et standards de conceptions pour optimiser votre visibilitée</p>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Sites Responsive</h4>
-                    <p>Des sites adaptés à tout les formats<br>-tablette<br>-smartphone</p>
+                    <p>Des sites adaptés à tout les formats<br>-tablette/pc<br>-smartphone</p>
                 </div>
             </div>
 

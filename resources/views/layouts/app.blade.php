@@ -39,8 +39,9 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     
 </head>
-
+@include('cookieConsent::index')
 <body class="dark">
+
     <div id="app">
         <nav class="navbar fixed-top navbar-expand-md navbar-dark shadow-sm" style="position:sticky">
             <div class="container">
