@@ -6,7 +6,7 @@
         <ul class="row reseaux mx-auto">
             <li><a class='col-4' href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li><a class=' col-4' href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a class=' col-4' href="www.linkedin.com/in/williams-kubiak-3525ab173"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a class=' col-4' href="https://www.linkedin.com/in/williams-kubiak-3525ab173"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             <li><a class=' col-4' href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             
         </ul>

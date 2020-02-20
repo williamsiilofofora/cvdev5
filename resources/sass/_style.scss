@@ -93,7 +93,9 @@ a{
 // Menu
 .navbar-brand img {
     width:65%;
-    
+    @include breakpoint(mobileonly) {
+        width: 60%;
+    }
 }
 #navbarSupportedContent>ul.navbar-nav.ml-auto>li>a:hover{
     color:$green;

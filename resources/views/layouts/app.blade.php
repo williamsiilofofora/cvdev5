@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Williams KUBIAK">
     {{-- TODO remplir meta description --}}
-    <meta name="description" content="Développeur web independant ,conception et développement web . référencement, optimisation, sites internet,
-     vitrine, e-commerce et des applications web Wordpress et Laravel pour les particuliers et les professionnels" lang="fr">
+    <meta name="description" content="Développeur web independant ,conception et développement de sites internet,  
+     vitrine, e-commerce et applications web pour les particuliers et professionnels" lang="fr">
     <meta name="keywords"
         content="Développement web, Lez'arts du web, agence web, application web, sites internet, Worpress, woocommerce, prestashop, lavarel, vuejs, responsive, design, site internet, site web, Vannes, Morbihan, Etel, Lorient, Auray, 56, 56000, Bretagne, créative">
     <meta name="language" content="fr">
@@ -23,11 +23,11 @@
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:site_name" content="lezartsduweb.fr" />
     <meta property="og:url" content="https://lezartsduweb.fr/" />
-    <meta property="og:description" content="Développeur web indépendant - freelance">
+    <meta property="og:description" content="Développeur web indépendant - Création de sites web">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', "Lez'Arts du Web") }}</title>
+    <title>Lez'Arts du Web - Créations de sites internet</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -37,7 +37,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" Content-Type: "text/css" />
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "entrepeneur individuel",
+      "url": "https://lezartsduweb.fr/",
+      "name": "Lez'Atrs Du Web",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "0675704110",
+        "contactType": "Contact"
+      }
+    }
+    </script>
 </head>
 @include('cookieConsent::index')
 <body class="dark">
@@ -45,11 +57,11 @@
     <div id="app">
         <nav class="navbar fixed-top navbar-expand-md navbar-dark shadow-sm" style="position:sticky">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand col-xs-8" href="{{ url('/') }}">
                     <img src="{{asset('./images/logo3.png')}}" alt="logo">
                     {{-- <span style="color:green"><span>L</span>ez'<span>A</span>rts </span><span>D</span>u <span>W</span>eb --}}
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                <button class="navbar-toggler col-xs-3" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -128,7 +140,7 @@
             @yield('content')
         </main>
     </div>
-    <a href="#bgvid" class="ancre" style="bottom:60px;right:60px">
+    <a href=".slider" class="ancre" style="bottom:60px;right:60px">
         <i class="fa fa-arrow-up"></i>
     </a>
     <script src={{asset('js/script.js')}} defer></script>
