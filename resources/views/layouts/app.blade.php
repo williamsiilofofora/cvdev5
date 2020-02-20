@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-<meta name="google-site-verification" content="vdWcuFNrPFOx00L0jgELXdMQFng41Udr6LqXjO-dOgI" />
+*<meta name="google-site-verification" content="vdWcuFNrPFOx00L0jgELXdMQFng41Udr6LqXjO-dOgI" />
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -15,7 +15,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Williams KUBIAK">
     <meta name="google-site-verification" content="XM7Yokhm7KWs1AMxMyr1E8IQ6iigwKAxvj4bNhQZL9U" />
-    https://lezartsduweb.fr/
     {{-- TODO remplir meta description --}}
     <meta name="description" content="Développeur web independant ,conception et développement de sites internet,  
      vitrine, e-commerce et applications web pour les particuliers et professionnels" lang="fr">
