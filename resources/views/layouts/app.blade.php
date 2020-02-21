@@ -165,8 +165,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href=".slider" class="ancre" style="bottom:60px;right:60px">
         <i class="fa fa-arrow-up"></i>
     </a>
-    <script src={{asset('js/script.js')}} defer></script>
-    <script src={{asset('js/lazysizes.min.js')}} async=""></script>
+    {{-- <script src={{asset('js/script.js')}} defer></script>
+    <script src={{asset('js/lazysizes.min.js')}} async=""></script> --}}
 
 
 </body>
