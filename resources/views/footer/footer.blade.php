@@ -4,8 +4,8 @@
     </div>
     <div class=" res col-sm-10 col-md-6 col-lg-5 col-xl-5 ">
         <ul class="row reseaux mx-auto">
-            <li><a class='col-4' href="/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a class=' col-4' href="/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a class='col-4' href="https://www.facebook.com/LezArts-Du-Web-109673493957666/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a class=' col-4' href="https://twitter.com/lezartsduweb"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li><a class=' col-4' href="https://www.linkedin.com/in/williams-kubiak-3525ab173"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             <li><a class=' col-4' href="https://github.com/williamsiilofofora"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             
@@ -16,8 +16,8 @@
     <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 row mx-auto footer">
         <div class=" col-sm-10 col-md-10 col-lg-3 col-xl-3 mx-auto ">
             <h5>Developpeur Web</h5>
-            <p>Développeur web indépendant, freelance. Conception de sites internet
-                et d'applications métier performantes et sécurisées.<br>
+            <p>Développeur web indépendant, freelance. Conception d'applications et de sites 
+                 web performants et sécurisés.<br>
                 - Site sur mesure <br>
                 - Site vitrine <br>
                 - E-commerce
