@@ -7,7 +7,7 @@
             <li><a class='col-4' href="https://www.facebook.com/LezArts-Du-Web-109673493957666/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li><a class=' col-4' href="https://twitter.com/lezartsduweb"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li><a class=' col-4' href="https://www.linkedin.com/in/williams-kubiak-3525ab173"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a class=' col-4' href="https://github.com/williamsiilofofora"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            <li><a class=' col-4' href="/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             
         </ul>
     </div>
