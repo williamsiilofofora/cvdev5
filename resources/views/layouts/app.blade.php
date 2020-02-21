@@ -28,20 +28,19 @@
     <meta name="copyright" content="Lez'Arts du web">
     <meta name="abstract"
         content="Ce site presente mon activité, mes réalisations et permet de me contacter">
-    <link rel="canonical" href="https://www.Le-coota.fr/" />
+    <link rel="canonical" href="https://www.lezartsduweb.fr/" />
     <meta property="og:title" content="Lez'Arts du web - Développeur freelance " />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:site_name" content="lezartsduweb.fr" />
     <meta property="og:url" content="https://lezartsduweb.fr/" />
     <meta property="og:description" content="Développeur web indépendant - Création de sites web">
-
+    <meta property="og:image" content="{{asset('./images/logo3.png')}} />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Lez'Arts du Web - Créations de sites internet</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> --}}
@@ -49,13 +48,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" Content-Type: "text/css" />
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PNRCJ83');</script>
-<!-- End Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PNRCJ83');
+    </script>
+    <!-- End Google Tag Manager -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -99,7 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <ul class="navbar-nav ml-auto">
 
                         <li class="nav-item">
-                            <a href=".slider" class="nav-link menuAccueil">Accueil</a>
+                            <a href="/" class="nav-link menuAccueil">Accueil</a>
                         </li>
                         <li class="nav-item">
                             <a href="#aboutMe" class="nav-link menuAbout">A propos de moi</a>
