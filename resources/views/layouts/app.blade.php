@@ -36,7 +36,7 @@
     <meta property="og:site_name" content="lezartsduweb.fr" />
     <meta property="og:url" content="https://lezartsduweb.fr/" />
     <meta property="og:description" content="Développeur web indépendant - Création de sites web">
-    <meta property="og:image" content="{{asset('./images/logo3.png')}}" />
+    <meta property="og:image" content="{{asset('./images/logoseul.png')}}" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Lez'Arts du Web - Créations de sites internet et d'applications web</title>
@@ -71,7 +71,12 @@
             "@context": "https://schema.org",
             "@type": "Organization",
             "url": "https://lezartsduweb.fr/",
-            "name": "Lez'Atrs Du Web",
+            "name": "Lez'Arts Du Web", 
+            "sameAs": [
+                "https://twitter.com/lezartsduweb",
+                "https://www.linkedin.com/in/williams-kubiak-3525ab173",
+                "https://www.facebook.com/LezArts-Du-Web-109673493957666/",
+            ],
             "contactPoint": {
                 "@type": "ContactPoint",
                 "telephone": "0675704110",
@@ -83,11 +88,7 @@
                 "postalCode": "56410",
                 "addressCountry": "FR"
             },
-            "sameAs": [
-                "https://twitter.com/lezartsduweb",
-                "https://www.linkedin.com/in/williams-kubiak-3525ab173",
-                "https://www.facebook.com/LezArts-Du-Web-109673493957666/",
-            ],
+           
         }
     </script>
 </head>
