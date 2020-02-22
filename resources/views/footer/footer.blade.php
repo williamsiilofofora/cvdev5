@@ -46,6 +46,5 @@
 
 <div class="row copy">
     <p class=" col-sm-3"><a href="{{ route('rgpd.index') }}">Mentions Legales</a></p>
-    {{-- <p class=" col-sm-3"><a href="https://lezartsduweb.fr/public/sitemap.xml">sitemap</a></p> --}}
     <p class=" col-sm-3">copyright-2020©Lez'arts Du Web</p>
 </div>

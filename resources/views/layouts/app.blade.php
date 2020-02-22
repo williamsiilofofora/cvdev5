@@ -20,7 +20,7 @@
     <meta name="author" content="Williams KUBIAK">
     <meta name="google-site-verification" content="vdWcuFNrPFOx00L0jgELXdMQFng41Udr6LqXjO-dOgI" />
     <meta name="description" content="Développeur web independant ,conception et développement de sites internet,  
-     vitrine, e-commerce et applications web pour professionnels et particuliers" lang="fr">
+     vitrine, e-commerce et d'applications web pour professionnels et particuliers" lang="fr">
     <meta name="keywords"
         content="Développement web, Lez'arts du web, agence web, application web, sites internet, Wordpress, woocommerce, prestashop, lavarel, vuejs, responsive, design, site internet, site web, Vannes, Morbihan, Etel, Lorient, Auray, 56, 56000, Bretagne">
     <meta name="language" content="fr">
@@ -36,10 +36,10 @@
     <meta property="og:site_name" content="lezartsduweb.fr" />
     <meta property="og:url" content="https://lezartsduweb.fr/" />
     <meta property="og:description" content="Développeur web indépendant - Création de sites web">
-    <meta property="og:image" content="{{asset('./images/logoseul.png')}}" />
+    <meta property="og:image" content="{{asset('images/logoseul.png')}}" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Lez'Arts du Web - Créations de sites internet et d'applications web</title>
+    <title>Lez'Arts du Web - Créations d'applications et de sites web</title>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
@@ -49,23 +49,13 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <!-- Google Tag Manager -->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PNRCJ83');
-    </script>
-    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5R5VVGD');</script>
+<!-- End Google Tag Manager -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -95,10 +85,10 @@
 @include('cookieConsent::index')
 
 <body class="dark">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNRCJ83" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+   <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5R5VVGD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <div id="app">
         <nav class="navbar fixed-top navbar-expand-md navbar-dark shadow-sm" style="position:sticky">
             <div class="container">
@@ -184,7 +174,7 @@
             @yield('content')
         </main>
     </div>
-    <a href=".slider" class="ancre" style="bottom:60px;right:60px">
+    <a href="/" class="ancre" style="bottom:60px;right:60px">
         <i class="fa fa-arrow-up"></i>
     </a>
 </body>
