@@ -20,7 +20,8 @@
                  web performants et sécurisés.<br>
                 - Site sur mesure <br>
                 - Site vitrine <br>
-                - E-commerce
+                - E-commerce <br>
+                - Applications metier
             </p>
         </div>
 

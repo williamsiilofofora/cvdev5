@@ -1,17 +1,17 @@
 <div class="bg-service">
     <div class="services">
-        <h1 class="jackInTheBox animated animation">Mes Services</h1>
+        <h2 class="jackInTheBox animated animation">Mes Services</h2>
     </div>
     <div class="row">
         <div class="discribe  mx-auto col-lg-6 col-sm-8 col-xl-6">
             <h3>Lez'Arts du Web c'est quoi?</h3>
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Ratione iste dicta iure hic inventore voluptate odit!
-                Voluptates quas exercitationem animi inventore maiores,
-                fugiat sit quidem illo dicta neque dolorum amet quisquam molestias
-                atque enim obcaecati! Qui autem quas error eos obcaecati delectus
-                ab minima repellat, impedit praesentium a cumque. Numquam impedit deserunt sed nobis. Quidem!
+                Lez Arts du web est une agence de communication digital,
+                 qui vous propose un accompagnement complet et sur mesure pour tout vos projets de créations web.
+                 Que vous soyez particulier ou professionnel, boostez votre visibilitée avec des sites responsives et des applications performantes et securisées
+                 Conceptions de sites web, sites vitrine, e-commerce, blog et applications avec differentes technologie comme Laravel ou Wordpress.
+                   
+
             </p>
         </div>
     </div>

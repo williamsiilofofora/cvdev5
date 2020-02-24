@@ -3,16 +3,13 @@
         <img src={{asset('./images/images.jpg')}} alt="photo" class="lazyload">
 
     </div>
-    <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Inventore eligendi quo a! Rerum atque mollitia, dolorum magni harum quaerat explicabo.
-        Nisi molestias iste sit blanditiis doloribus harum magni recusandae corrupti! Laborum blanditiis
-        quod pariatur cupiditate eum itaque atque nemo quia.
+    <p class="">Geek affirmé je me suis lancé le defi de me reconvertir professionnelement pour vivre de ma passion.
+        Aprés 9 moi de travail intense j'ai obtenu mon BTS au Greta de Vannes ou j'ai appris à maitriser le reférencement, l'ergonomie, la sécurité et differentes technologies web tel que HTLM/CSS, Javascript,
+        PHP, SQL des librairies comme JQuery et Bootstrap des CMS comme Wordpress et Drupal et enfin des frameworks comme Laravel.
+
     </p>
 
-    <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Inventore eligendi quo a! Rerum atque mollitia, dolorum magni harum quaerat explicabo.
-        Nisi molestias iste sit blanditiis doloribus harum magni recusandae corrupti! Laborum blanditiis
-        quod pariatur cupiditate eum itaque atque nemo quia.
+    <p class="">Le second defi à été la création de mon entreprise, pour vous proposer le meilleur de la conception web pour une experience utilisateur optimal.
         
     </p>
 </article>

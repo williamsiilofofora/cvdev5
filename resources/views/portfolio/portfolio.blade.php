@@ -1,5 +1,5 @@
 <div class="portfolio ">
-    <h1>Mes Réalisations</h1>
+    <h2 class="jackInTheBox animated animation">Mes Réalisations</h2>
 </div>
 <hr style="width:30%">
 <div class=' container port row mx-auto'>
@@ -7,7 +7,7 @@
         <img src="{{asset('./images/noManSky.jpg')}}" alt="nomansky" class="lazyload"/>
         <div class="title">
             <div>
-                <h2>No Man's Sky</h2>
+                <h3>No Man's Sky</h3>
             </div>
         </div>
         <figcaption>
@@ -21,7 +21,7 @@
         <img src="{{asset('./images/LeZArtsDuWeb-comp.jpg')}}" alt="Lez'arts du web" class="lazyload"/>
         <div class="title">
             <div>
-                <h2>Lez'Arts Du Web</h2>
+                <h3>Lez'Arts Du Web</h3>
             </div>
         </div>
         <figcaption>
@@ -34,7 +34,7 @@
         <img src="{{asset('./images/LeCoota-comp.jpg')}}" alt="Le Coota" class="lazyload"/>
         <div class="title">
             <div>
-                <h2>Le Coota</h2>
+                <h3>Le Coota</h3>
             </div>
         </div>
         <figcaption>
@@ -48,7 +48,7 @@
         <img src="{{asset('./images/guillemot-comp.jpg')}}" alt="Guillemot créations"class="lazyload" />
         <div class="title">
             <div>
-                <h2>Guillemot-créations</h2>
+                <h3>Guillemot-créations</h3>
             </div>
         </div>
         <figcaption>

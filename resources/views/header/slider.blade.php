@@ -8,21 +8,21 @@
         <div class="carousel-item active slideun">
             <img class="d-block w-100 lazyload" src="{{asset('./images/notebook-comp.jpg')}}" alt="First slide">
             <div class="carousel-caption d-none d-md-block fadeOut">
-                <h5 class="">Developpeur Web</h5>
+                <h1 class="">Developpeur Web</h1>
                 <p>...</p>
             </div>
         </div>
         <div class="carousel-item slidedeux">
             <img class="d-block w-100 lazyload" src="{{asset('./images/laptop-comp.jpg')}}" alt="Second slide">
             <div class="carousel-caption d-none d-md-block fadeOut">
-                <h5 class="">Design Web</h5>
+                <h1 class="">Design Web</h1>
                 <p>...</p>
             </div>
         </div>
         <div class="carousel-item slidetrois">
             <img class="d-block w-100 lazyload" src="{{asset('./images/computer-comp.jpg')}}" alt="Third slide">
             <div class="carousel-caption d-none d-md-block fadeOut">
-                <h5 class="">Developpeur D'applications</h5>
+                <h1 class="">Developpeur D'applications</h1>
                 <p>...</p>
             </div>
         </div>

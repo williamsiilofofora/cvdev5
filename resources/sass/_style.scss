@@ -4,8 +4,8 @@ body {
     transform-style: preserve-3d;
 }
 
- h2,h1 {
-     font-size: 45px;
+h2 {
+     font-size:2.7rem!important;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
  }
@@ -452,7 +452,7 @@ ol.carousel-indicators li.active {
         font-weight: bold;
         padding:20px 0;
 
-        h2 {
+        h3 {
             font-size: 45px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
@@ -538,6 +538,13 @@ figure.snip .title {
     top: 58%;
     left: 25px;
     padding: 5px 10px 10px;
+    h3{
+        font-size:35px;
+        font-family: Impact,
+        Haettenschweiler,
+        'Arial Narrow Bold',
+        sans-serif;
+    }
 }
 
 figure.snip .title:before,
@@ -586,13 +593,13 @@ figure.snip .title div:after {
     transform: translateY(-100%);
 }
 
-figure.snip h2,
+figure.snip h3,
 figure.snip h4 {
     margin: 0;
     text-transform: uppercase;
 }
 
-figure.snip h2 {
+figure.snip h3 {
     font-weight: 400;
 }
 
