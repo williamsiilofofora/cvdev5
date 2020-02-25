@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Messages;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Contact;
 class MessageController extends Controller
 {
     /**
@@ -35,13 +36,21 @@ class MessageController extends Controller
      */
     public function store(Request $request)
     {
-        $message = new Messages;
-        $message->nom = $request->nom;
-        $message->message = $request->message;
-        $message->email = $request->email;
-        $message->numero = $request->numero;
-        $message->save();
-        return redirect()->route('accueil.index');
+
+        Mail::to('lezartsduweb@gmail.com')
+            ->queue(new Contact($request->except('_token')));
+
+        return redirect(route('accueil.index'));
+       
+       
+       
+        // $message = new Messages;
+        // $message->nom = $request->nom;
+        // $message->message = $request->message;
+        // $message->email = $request->email;
+        // $message->numero = $request->numero;
+        // $message->save();
+        // return redirect()->route('accueil.index');
     }
 
     /**

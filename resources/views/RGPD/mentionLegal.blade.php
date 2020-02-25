@@ -6,7 +6,7 @@
 <div class='container rgpd' style="padding:50px;">
 
 
-    <h2>Mentions légales et politique de confidentialité</h2>
+    <h1>Mentions légales et politique de confidentialité</h1>
 
     <p>
         L'entreprise Lez'Arts Du Web, soucieuse des droits des indvidus, notamment au regard des traitements automatisés
@@ -28,13 +28,13 @@
         d'utilisation du site et jusqu'à ce qu'une nouvelle version la remplace.
     </p>
 
-    <h3>Article 1-Mentions légales</h3>
+    <h2>Article 1-Mentions légales</h2>
 
-    <h4>1.1 Site :</h4>
+    <h3>1.1 Site :</h3>
     <p><a href="https://lezartsduweb.fr">https://lezartsduweb.fr</a></p>
 
 
-    <h4>1.2 Editeur :</h4>
+    <h3>1.2 Editeur :</h3>
 
     <p>L'entreprise Lez'Arts Du Web entrepreneur individuel</br>
         dont le siège social est situé: 34 bis rue Général LECLERC 56410 ETEL</br>
@@ -44,22 +44,22 @@
         n° de téléphone: 06 75 70 41 10</br>
         adresse mail:<a href="lezartsduweb@gmail.com"> lezartsduweb@gmail.com</a></p>
 
-    <h4>1.3 Hébergeur:</h4>
+    <h3>1.3 Hébergeur:</h3>
     <p><a href="https://lezartsduweb.fr ">https://lezartsduweb.fr</a> est hégérgé par OVH, dont le siège est situé 2 rue
         KELLERMANN
         59100 ROUBAIX</p>
 
-    <h4>1.4 Délégué à la protection des données(DPO):</h4>
+    <h3>1.4 Délégué à la protection des données(DPO):</h3>
     <p>Un délégué à la protection des données : Williams Kubiak, williams.kubiakpro@gmail.com, est à
         votre disposition pour toute question relative à la protection de vos données personnelles.</p>
 
-    <h3>Article 2-Accés au site</h3>
+    <h2>Article 2-Accés au site</h2>
     <p>L'accès au site et son utilisation sont réservés à un usage strictement personnel.
         Vous vous engagez à ne pas utiliser ce site et les informations ou données qui y
         figurent à des fins commerciales, politiques, publicitaires et pour toute forme de
         sollicitation commerciale et notamment l'envoi de courriers électroniques non sollicités.</p>
 
-    <h3>Artivle 3-Contenu du site</h3>
+    <h2>Artivle 3-Contenu du site</h2>
     <p>Toutes les marques, photographies, textes, commentaires, illustrations, images animées ou non,
         séquences vidéo, sons, ainsi que toutes les applications informatiques qui pourraient être
         utilisées pour faire fonctionner ce site et plus généralement tous les éléments reproduits
@@ -71,7 +71,7 @@
         dès la prise de connaissance de ces utilisations non autorisées ne vaut pas acceptation desdites
         utilisations et renonciation aux poursuites.</p>
 
-    <h3>Article 4-Gestion du site</h3>
+    <h2>Article 4-Gestion du site</h2>
     <p>Pour la bonne gestion du site, l'éditeur pourra à tout moment:</p>
     <ul>
         <li>-suspendre, interrompre ou limiter l'accés à tout ou partie du site, réserver l'accés au site, ou à
@@ -84,7 +84,7 @@
         <li>
             -suspendre le site afin de procéder à des mises à jour.</li>
     </ul>
-    <h3>Article 5-Reponsabilités</h3>
+    <h2>Article 5-Reponsabilités</h2>
     <p>La responsabilité de l'éditeur ne peut être engagée en cas de défaillance, panne, difficulté ou interruption de
         fonctionnement,
         empêchant l'accès au site ou à une de ses fonctionnalités.
@@ -108,13 +108,13 @@
         votre utilisation du site, il pourra se retourner contre vous pour obtenir l'indemnisation
         de tous les préjudices, sommes, condamnations et frais qui pourraient découler de cette procédure.</p>
 
-    <h3>Article 6-Liens hypertextes</h3>
+    <h2>Article 6-Liens hypertextes</h2>
     <p>La mise en place par les utilisateurs de tous liens hypertextes vers tout ou partie du site
         est autorisée par l'éditeur. Tout lien devra être retiré sur simple demande de l'éditeur.
         Toute information accessible via un lien vers d'autres sites n'est pas publiée par
         l'éditeur. L'éditeur ne dispose d'aucun droit sur le contenu présent dans ledit lien.</p>
 
-    <h3>Article 7-Collecte et protection des données</h3>
+    <h2>Article 7-Collecte et protection des données</h2>
     <p>Vos données sont collectées par la société EURL MALLACOOTA
         Une donnée à caractère personnel désigne toute information concernant une personne physique
         identifiée ou identifiable (personne concernée) ; est réputée identifiable une personne qui
@@ -133,7 +133,7 @@
         toute question relative à la protection de vos données personnelles.</p>
 
 
-    <h3>Article 8 - Droit d’accès, de rectification et de déréférencement de vos données</h3>
+    <h2>Article 8 - Droit d’accès, de rectification et de déréférencement de vos données</h2>
     <p>En application de la réglementation applicable aux données à caractère personnel,
         les utilisateurs disposent des droits suivants:</p>
     <ul>
@@ -190,7 +190,7 @@
     <p>Nous vous recommandons de nous contacter dans un premier temps avant de déposer une réclamation auprès
         de la CNIL, car nous sommes à votre entière disposition pour régler votre problème.</p>
 
-    <h3>Article 9-Utilisation des données</h3>
+    <h2>Article 9-Utilisation des données</h2>
     <p>Les données personnelles collectées auprès des utilisateurs ont pour objectif la mise à
         disposition des services de la Plateforme, leur amélioration et le maintien d'un environnement
         sécurisé. La base légale des traitements est l’exécution du contrat entre l’utilisateur
@@ -216,7 +216,7 @@
 
 
 
-    <h3>Article 10-Politique de conservation des données</h3>
+    <h2>Article 10-Politique de conservation des données</h2>
     <p>La Plateforme conserve vos données pour la durée nécessaire pour vous fournir ses services ou son assistance.
         Dans la mesure raisonnablement nécessaire ou requise pour satisfaire aux obligations légales ou réglementaires,
         régler des litiges, empêcher les fraudes et abus ou appliquer nos modalités et conditions,
@@ -224,7 +224,7 @@
         même après que vous ayez fermé votre compte ou que nous n'ayons plus besoin pour
         vous fournir nos services.</p>
 
-    <h3>Article 11-Partage des donées personnelles avec des tiers</h3>
+    <h2>Article 11-Partage des donées personnelles avec des tiers</h2>
     <p>Les données personnelles peuvent être partagées avec des sociétés tierces exclusivement
         dans l’Union européenne, dans les cas suivants:</p>
     <ul>
@@ -247,7 +247,7 @@
 
 
 
-    <h3>Article 12-Offres commerciales</h3>
+    <h2>Article 12-Offres commerciales</h2>
     <p>Vous êtes susceptible de recevoir des offres commerciales de l'éditeur. Si vous ne le souhaitez pas,
         veuillez cliquer sur le lien suivant: <a href="lezartsduweb@gmail.com">lezartsduweb@gmail.com</a>
         Vos données sont susceptibles d’être utilisées par les partenaires de l'éditeur à des fins de prospection
@@ -264,7 +264,7 @@
         L'éditeur décline toute responsabilité à cet égard.
         Les données sont conservées et utilisées pour une durée conforme à la législation en vigueur.</p>
 
-    <h3>Article 13-Cookies</h3>
+    <h2>Article 13-Cookies</h2>
     <p>
         Qu'est-ce qu'un «Cookie»?
         Un «Cookie» ou traceur est un fichier électronique déposé sur un terminal
@@ -313,18 +313,18 @@
             href="https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser">https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser</a>
     </p>
 
-    <h3>Article 14-Photographies et représentation des produits</h3>
+    <h2>Article 14-Photographies et représentation des produits</h2>
     <p>Les photographies de produits, accompagnant leur description, ne sont pas contractuelles et n'engagent pas
         l'éditeur.
     </p>
 
-    <h3>Article 15-Loi applicable</h3>
+    <h2>Article 15-Loi applicable</h2>
     <p>Les présentes conditions d'utilisation du site sont régies par la loi française et soumises à la compétence des
         tribunaux du siège social de l'éditeur, sous réserve d'une attribution de compétence spécifique découlant d'un
         texte
         de loi ou réglementaire particulier.</p>
 
-    <h3>Article 16-Contactez-nous</h3>
+    <h2>Article 16-Contactez-nous</h2>
     <p>Pour toute question, information sur les produits présentés sur le site, ou concernat le site lui-même, vous
         pouvez
         laisser un message à l'adresse suivante: lezartsduweb@gmail.com</p>

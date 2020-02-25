@@ -13,7 +13,7 @@
         <figcaption>
             <p>Site réalisé en php avec une architecture MVC</p>
         </figcaption>
-        <a href="http://greta-bretagne-sud.fr/kercode-promo3/williams-kubiak/projet-fin-forum/" class='link'
+        <a href="/" class='link'
             target="blank">           
         </a>
     </figure>

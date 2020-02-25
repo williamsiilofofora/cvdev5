@@ -4,8 +4,6 @@
             enctype="multipart/form-data" novalidate>
             @csrf
             <fieldset>
-
-
                 <div class="blocFormContact from-right2 animated">
                     <div class="col-lg-12 ">
                         <div class="form-group input-group ">
@@ -43,5 +41,19 @@
             </fieldset>
 
         </form>
+        <?php
+    if (isset($_POST['message'])) {
+        $position_arobase = strpos($_POST['email'], '@');
+        if ($position_arobase === false)
+            echo '<p>Votre email doit comporter un arobase.</p>';
+        else {
+            $retour = mail('lezartsduweb@gamil.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email'], 'Nom: '.$_POST['nom'], 'Numeros: '.$_POST['numero']);
+            if($retour)
+                echo '<p>Votre message a été envoyé.</p>';
+            else
+                echo '<p>Erreur.</p>';
+        }
+    }
+    ?>
     </div>
 </div>
