@@ -15,7 +15,7 @@
         gtag('config', 'UA-158812833-1');
     </script>
 
-    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Williams KUBIAK">
     <meta name="google-site-verification" content="vdWcuFNrPFOx00L0jgELXdMQFng41Udr6LqXjO-dOgI" />
