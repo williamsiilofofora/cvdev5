@@ -6,6 +6,7 @@ use App\Messages;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Contact;
+
 class MessageController extends Controller
 {
     /**
@@ -37,12 +38,10 @@ class MessageController extends Controller
     public function store(Request $request)
     {
 
-        // Mail::to('lezartsduweb@gmail.com')
-        //     ->queue(new Contact($request->except('_token')));
+        Mail::to('lezartsduweb@gmail.com')
+            ->queue(new Contact($request->except('_token')));
 
-        // return redirect(route('accueil.index'));
-       
-       
+        return redirect(route('accueil.index'));
        
         $message = new Messages;
         $message->nom = $request->nom;

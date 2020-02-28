@@ -4,12 +4,12 @@
 
     </div>
     <p class="">Geek affirmé je me suis lancé le defi de me reconvertir professionnelement pour vivre de ma passion.
-        Aprés 9 moi de travail intense j'ai obtenu mon BTS au Greta de Vannes ou j'ai appris à maitriser le reférencement, l'ergonomie, la sécurité et differentes technologies web tel que HTLM/CSS, Javascript,
+        Aprés un travail intense j'ai obtenu mon BTS au Greta de Vannes ou j'ai appris à maitriser le reférencement, l'ergonomie, la sécurité et differentes technologies web tel que HTLM/CSS, Javascript,
         PHP, SQL des librairies comme JQuery et Bootstrap des CMS comme Wordpress et Drupal et enfin des frameworks comme Laravel.
 
     </p>
 
-    <p class="">Le second defi à été la création de mon entreprise, pour vous proposer le meilleur de la conception web pour une experience utilisateur optimal.
+    <p class="">Le second defi à été la création de mon entreprise, pour vous partager ma passion avec le meilleur de la conception web pour une experience optimal.
         
     </p>
 </article>

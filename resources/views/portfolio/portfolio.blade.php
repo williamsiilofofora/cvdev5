@@ -11,7 +11,7 @@
             </div>
         </div>
         <figcaption>
-            <p>Site réalisé en php avec une architecture MVC</p>
+            <p>Site créer en php (from scratch)</p>
         </figcaption>
         <a href="/" class='link'
             target="blank">           
@@ -25,7 +25,7 @@
             </div>
         </div>
         <figcaption>
-            <p>Site personnel réalisé avec Laravel et du Javascript pour les animations.</p>
+            <p>Site personnel réalisé avec Laravel et Javascript pour les animations.</p>
         </figcaption>
         <a href="https://www.lezartsduweb.fr/" class='link' target="blank">
         </a>
@@ -52,7 +52,7 @@
             </div>
         </div>
         <figcaption>
-            <p>Site vitrine réaliser avec Wordpresse.</p>
+            <p>Site vitrine réalisé avec Wordpresse.</p>
         </figcaption>
         <a href="https://guillemot-creations.com/" class='link' target="blank">
         </a>

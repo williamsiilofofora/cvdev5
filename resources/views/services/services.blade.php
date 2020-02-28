@@ -6,10 +6,10 @@
         <div class="discribe  mx-auto col-lg-6 col-sm-8 col-xl-6">
             <h3>Lez'Arts du Web c'est quoi?</h3>
             <p>
-                Lez Arts du web est une agence de communication digital,
+                Lez Arts du web est une agence web,
                  qui vous propose un accompagnement complet et sur mesure pour tout vos projets de créations web.
-                 Que vous soyez particulier ou professionnel, boostez votre visibilitée avec des sites responsives et des applications performantes et securisées
-                 Conceptions de sites web, sites vitrine, e-commerce, blog et applications avec differentes technologie comme Laravel ou Wordpress.
+                 Que vous soyez particulier ou professionnel, boostez votre visibilité avec un site responsives ou une application performante et securisée
+                 Conceptions de sites web, sites vitrine,solutions e-commerce, blogs et applications avec differentes technologie comme Laravel ou Wordpress.
                    
 
             </p>
