@@ -16,10 +16,11 @@ $(document).ready(function () {
         }
         if ($("body").hasClass("dark")) {
             $("body").removeClass("dark");
-        } else {
-            $("body").addClass("dark");
+         } 
+       // else {
+        //     $("body").addClass("dark");
 
-        }
+        // }
     });
 
     $(".js-cookie-consent-agree ").addClass("btn btn-success").css("margin-left", "15px");

@@ -11,7 +11,7 @@
             </div>
         </div>
         <figcaption>
-            <p>Site créer en php (from scratch)</p>
+            <p>Site créé en php (from scratch)</p>
         </figcaption>
         <a href="/" class='link'
             target="blank">           
