@@ -461,7 +461,9 @@ ol.carousel-indicators li.active {
 
         }
     }
-
+    .icons{
+        min-height: 145px;
+    }
     .groupIconLeft,
     .groupIconRight {
         width: 65px;
@@ -476,6 +478,7 @@ ol.carousel-indicators li.active {
         @include breakpoint(mobileonly) {
             display:none;
         }
+
     }
 
     .groupIconLeft:hover,
@@ -489,6 +492,14 @@ ol.carousel-indicators li.active {
         position: relative;
         top: 55px;
         left: 85%;
+          @include breakpoint(tablet) {
+              position: relative;
+              left: 0;
+          }
+          @include breakpoint(phablet) {
+              position: relative;
+              left: 0;
+          }
     }
 
     .groupIconRight {
