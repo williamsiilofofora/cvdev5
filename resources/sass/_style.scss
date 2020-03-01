@@ -462,7 +462,7 @@ ol.carousel-indicators li.active {
         }
     }
     .icons{
-        min-height: 145px;
+        min-height: 190px;
     }
     .groupIconLeft,
     .groupIconRight {
@@ -490,21 +490,21 @@ ol.carousel-indicators li.active {
 
     .groupIconLeft {
         position: relative;
+        top:65px;
+        left: 0;
+        @include breakpoint(tablet) {
+            
         top: 55px;
         left: 85%;
-          @include breakpoint(tablet) {
-              position: relative;
-              left: 0;
-          }
-          @include breakpoint(phablet) {
-              position: relative;
-              left: 0;
-          }
+        }
+
+         
     }
 
     .groupIconRight {
         position: relative;
         top: 55px;
+        
     }
 
     h4 {
