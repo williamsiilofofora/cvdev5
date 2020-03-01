@@ -8,8 +8,8 @@
             <p>
                 Lez Arts du web est une agence web,
                  qui vous propose un accompagnement complet et sur mesure pour tout vos projets de créations web.
-                 Que vous soyez particulier ou professionnel, boostez votre visibilité avec un site responsives ou une application performante et securisée.<br>
-                 Conceptions de sites web, sites vitrine, solutions e-commerce, blogs et applications avec differentes technologie comme Laravel ou Wordpress.
+                 Que vous soyez particulier, association ou professionnel, boostez votre visibilité avec un site ou une application moderne, performante et securisée.<br>
+                 Conceptions de sites web, sites vitrine, solutions e-commerce, blogs et applications avec differentes technologies comme Laravel ou Wordpress.
                    
 
             </p>

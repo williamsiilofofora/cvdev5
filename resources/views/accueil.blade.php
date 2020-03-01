@@ -8,7 +8,7 @@
 <section id="info">
     @include('Apropos.info')
 </section>
-<section id="aboutMe">
+<section id="aboutMe" >
     <div class="aboutMe container-fluid col-sm-12 col-lg-10 col-xl-6">
         <h2 class="bounceInDown animated animation1">A Propos</h2>
         <div class="container row d-sm-inline-flex">
