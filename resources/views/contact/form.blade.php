@@ -9,23 +9,23 @@
                         <div class="form-group input-group ">
                             <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
                             <input type="text" name="nom" class="form-control" placeholder="Nom / Prénom"
-                                autocomplete="off">
+                                autocomplete="off" required>
 
                         </div>
                         <div class="form-group input-group ">
                             <span class="input-group-addon"><i class="fa fa-at" aria-hidden="true"></i></span>
                             <input type="text" name="email" class="form-control" placeholder="E-mail"
-                                autocomplete="off">
+                                autocomplete="off" required>
 
                         </div>
                         <div class="form-group input-group ">
                             <span class="input-group-addon"><i class="fa fa-phone" aria-hidden="true"></i></span>
                             <input type="text" name="numero" class="form-control" placeholder="Téléphone"
-                                autocomplete="off">
+                                autocomplete="off" required>
                         </div>
                         <div class="form-group input-group">
                             <textarea class="form-control" cols="30" rows="10" name="message"
-                                placeholder="Message"></textarea>
+                                placeholder="Message" required></textarea>
 
                         </div>
                         <div class="submit">

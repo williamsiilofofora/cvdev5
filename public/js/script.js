@@ -16,8 +16,7 @@ $(document).ready(function () {
         }
         if ($("body").hasClass("dark")) {
             $("body").removeClass("dark");
-         } 
-       else {
+        } else {
             $("body").addClass("dark");
 
         }
@@ -78,7 +77,7 @@ $(document).ready(function () {
         $('html, body')
             .stop()
             .animate({
-                scrollTop: $("#aboutMe").offset().top-100
+                scrollTop: $("#aboutMe").offset().top - 100
             }, 1000);
     });
     $('.menuServices').on('click', function (e) {
@@ -110,7 +109,7 @@ $(document).ready(function () {
         $('html, body')
             .stop()
             .animate({
-                scrollTop: $(".slider").offset().top -100
+                scrollTop: $(".slider").offset().top - 100
             }, 1600);
     });
 

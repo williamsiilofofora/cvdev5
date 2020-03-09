@@ -6,8 +6,8 @@
         <div class="discribe  mx-auto col-lg-6 col-sm-8 col-xl-6">
             <h3>Lez'Arts du Web c'est quoi?</h3>
             <p>
-                Lez Arts du web est une agence web,
-                 qui vous propose un accompagnement complet et sur mesure pour tout vos projets de créations web.
+                Développeur web freelance, 
+                 je vous propose un accompagnement complet et sur mesure pour tout vos projets de créations web.
                  Que vous soyez particulier, association ou professionnel, boostez votre visibilité avec un site ou une application moderne, performante et securisée.<br>
                  Conceptions de sites web, sites vitrine, solutions e-commerce, blogs et applications avec differentes technologies comme Laravel ou Wordpress.
                    
@@ -28,7 +28,7 @@
                 <div class="col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Web Design</h4>
-                    <p>Création de design adapté à vos goûts. Réalisation de logo</p>
+                    <p>Création de design adapté à vos goûts. Proposition de logo</p>
                 </div>
             </div>
 
@@ -36,7 +36,7 @@
                 <span class=' groupIconLeft'><i class="fa fa-desktop" aria-hidden="true"></i></span>
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
-                    <h4>Developpement Front</h4>
+                    <h4>Développement Front</h4>
                     <p>Intégration et développement <br>HTML/CSS<br>Javascript</p>
                 </div>
             </div>
@@ -45,8 +45,8 @@
                 <span class=' groupIconLeft'><i class="fa fa-database" aria-hidden="true"></i></span>
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
-                    <h4>Developpement Back</h4>
-                    <p>Créations de base de données (SQL)
+                    <h4>Développement Back</h4>
+                    <p>Création de base de données (SQL)
                         et utilisation du PHP, pour rendre vos sites dynamique.
                     </p>
                 </div>
@@ -62,7 +62,7 @@
                 <span class=' groupIconRight '><i class="fa fa-check-square-o" aria-hidden="true"></i></span>
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
-                    <h4>Referencement Naturel-SEO</h4>
+                    <h4>Refèrencement Naturel-SEO</h4>
                     <p>Utilisation d'outils et standards de conceptions pour optimiser votre visibilitée</p>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                 <div class="service col-sm-10 col-md-10 col-lg-10 col-xl-9">
                     <hr>
                     <h4>Sites Responsive</h4>
-                    <p>Des sites adaptés à tout les formats<br>-tablette/pc<br>-smartphone</p>
+                    <p>Des sites adaptés à tout les formats<br>-pc<br>-tablette<br>-smartphone</p>
                 </div>
             </div>
 

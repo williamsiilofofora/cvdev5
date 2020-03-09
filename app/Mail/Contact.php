@@ -34,6 +34,6 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->from('lezartsduweb@gmail.com')->view('emails.contact');
+        return $this->from('adminlezartsduweb@lezartsduweb.fr')->view('emails.contact');
     }
 }

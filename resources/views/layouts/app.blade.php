@@ -14,15 +14,15 @@
 
         gtag('config', 'UA-158812833-1');
     </script>
-
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+{{-- <meta http-equiv="Content-Security-Policy" content="default-src https:"> --}}
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Williams KUBIAK">
     <meta name="google-site-verification" content="vdWcuFNrPFOx00L0jgELXdMQFng41Udr6LqXjO-dOgI" />
-    <meta name="description" content="Développeur web independant ,conception et développement de sites internet,  
+    <meta name="description" content="Développeur web independant ,développement et création de sites internet,  
      vitrine, e-commerce et d'applications web pour professionnels et particuliers" lang="fr">
     <meta name="keywords"
-        content="Développement web, Lez'arts du web, agence web, application web, sites internet, Wordpress, woocommerce, prestashop, lavarel, vuejs, responsive, design, site internet, site web, Vannes, Morbihan, Etel, Lorient, Auray, 56, 56000, Bretagne">
+        content="Développement web, création, Lez'arts du web, agence web, applications web, sites internet, Wordpress, woocommerce, prestashop, lavarel, vuejs, responsive, design, site internet, site web, Vannes, Morbihan, Etel, Lorient, Auray, 56, 56000, Bretagne">
     <meta name="language" content="fr">
     <meta name="robots" content="index, follow">
     <meta name="distribution" content="global">
@@ -41,14 +41,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Lez'Arts du Web - Créations d'applications et de sites web</title>
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    {{-- <link rel="dns-prefetch" href="//fonts.gstatic.com"> --}}
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <!-- Google Tag Manager -->
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -86,13 +85,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body class="dark">
    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5R5VVGD"
+<noscript><iframe sandbox="allow-same-origin allow-scripts" src="https://www.googletagmanager.com/ns.html?id=GTM-5R5VVGD"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     <div id="app">
         <nav class="navbar fixed-top navbar-expand-md navbar-dark shadow-sm" style="position:sticky">
             <div class="container">
-                <a class="navbar-brand col-xs-8" href="{{ url('/') }}">
+                <a class="navbar-brand col-xs-8 col-8 col-lg-4 " href="{{ url('/') }}">
                     <img src="{{asset('./images/logo3.png')}}" alt="logo">
                 </a>
                 <button class="navbar-toggler col-xs-3" type="button" data-toggle="collapse"
@@ -114,10 +113,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <a href="/" class="nav-link menuAccueil">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#aboutMe" class="nav-link menuAbout">A propos de moi</a>
+                            <a href="#aboutMe" class="nav-link menuAbout">A propos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#services" class="nav-link menuServices">Mes services</a>
+                            <a href="#services" class="nav-link menuServices">Services</a>
                         </li>
                         <li class="nav-item">
                             <a href="#portfolio" class="nav-link menuPortfolio">Portfolio</a>

@@ -11,10 +11,9 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js(['resources/js/app.js',
-   'public/js/lazysizes.min.js',
-   'public/js/script.js',
-], 'public/js')
-   .sass('resources/sass/app.scss', 'public/css')
-   // .scripts(, 'public/js/app.js');
+mix.js('resources/js/app.js','public/js')
+   .sass('resources/sass/app.scss', 'public/css');
+// mix.js('public/js/script.js', 'public/js');
+// mix.js('public/js/lazysizes.min.js', 'public/js');
 
+// mix.copyDirectory('public/fonts', 'public/fonts');
