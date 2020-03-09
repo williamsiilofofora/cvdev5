@@ -177,7 +177,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <i class="fa fa-arrow-up"></i>
     </a>
 </body>
-
-
+<script src={{asset('js/script.js')}} async></script>
+<script src={{asset('js/lazysizes.min.js')}} async></script>
 
 </html>
